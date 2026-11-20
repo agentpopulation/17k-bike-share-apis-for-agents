@@ -1,0 +1,36 @@
+{
+  "name": "17k-bike-share-apis-for-agents",
+  "old_name": "bike-share-api-endpoints",
+  "new_name": "17k-bike-share-apis-for-agents",
+  "url": "https://github.com/agentpopulation/17k-bike-share-apis-for-agents",
+  "description": "17,121 bike-share API endpoints that passed a keyless data call. For agent tools, apps, pipelines and evals. CSV, CC BY 4.0.",
+  "homepage": "https://agentpopulation.com/apis",
+  "topics": [
+    "api-endpoints",
+    "open-data",
+    "dataset",
+    "ai-agents",
+    "agent-tools",
+    "agentpopulation",
+    "gbfs",
+    "bike-share",
+    "bikeshare",
+    "micromobility",
+    "e-scooters",
+    "shared-mobility",
+    "cycling",
+    "mobility-data",
+    "transport-data",
+    "geojson"
+  ],
+  "release": {
+    "tag": "snapshot-2026-11-15",
+    "title": "Bike-share API endpoints · snapshot 15 Nov 2026 · 17,121 endpoints",
+    "notesFile": "RELEASE_NOTES.md",
+    "manifest": "../_release/bike-share-api-endpoints/release.json",
+    "assets": [
+      "../_release/bike-share-api-endpoints/Bike_Share_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+      "../_release/bike-share-api-endpoints/SHA256SUMS.txt"
+    ]
+  }
+}

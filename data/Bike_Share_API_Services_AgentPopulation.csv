@@ -1,0 +1,282 @@
+service,host,endpoints,countries
+Nextbike,gbfs.nextbike.net,2662,AT|BA|BE|CH|CY|CZ|DE|ES|FR|GB|GR|HR|IT|LV|PL|PT|RO|SE|SI|SK|XK
+Donkey,stables.donkey.bike,1736,BE|CH|DE|DK|ES|FI|FR|GB|HU|IS|LI|NL|SE
+Bird,mds.bird.co,1237,AT|BE|CA|CH|DE|ES|FI|FR|IL|IT|PT|US
+api.mobidata-bw.de,api.mobidata-bw.de,1107,CH|DE|LI
+Citybik,api.citybik.es,813,AE|AR|AT|BA|BE|BR|CA|CH|CL|CN|CO|CR|CY|CZ|DE|EC|ES|FI|FR|GB|GE|GR|HR|HU|IE|IN|IT|JP|KR|KZ|LT|LU|LV|MC|ME|MT|MX|MY|NL|NO|PE|PL|PT|RO|SA|SE|SI|SK|TR|TW|US|XK
+Getaround,getaround.com,718,AT|BE|DE|ES|FR|NO
+Fifteen,gbfs.partners.fifteen.eu,503,DE|ES|FR
+Lyft,gbfs.lyft.com,447,US
+Ecovelo,api.gbfs.v2.2.ecovelo.mobi,431,FR
+Ridedott,gbfs.api.ridedott.com,393,AE|BE|CH|DE|DK|FR|GB|IL|NO|PL|SA
+Entur,api.entur.io,376,NO
+Bcycle,gbfs.bcycle.com,374,US
+Rideyego,services.rideyego.com,372,FR
+Ecovelo,api.gbfs.v3.0.ecovelo.mobi,353,FR
+Spin,gbfs.spin.pm,315,US
+Zeus,zeus.city,270,DE|GB|IT|MY|NO|SE
+beryl-gbfs-production.web.app,beryl-gbfs-production.web.app,242,GB|IE
+Cyclocity,api.cyclocity.fr,226,BE|ES|FR|IE|JP|LT|LU|NO|SE|SI
+Citiz,backend.citiz.fr,144,FR
+Rideflamingo,data.rideflamingo.com,144,NZ
+Veoride,cluster-prod.veoride.com,144,US
+Voiapp,api.voiapp.io,128,BE|DE|FR
+proxy.transport.data.gouv.fr,proxy.transport.data.gouv.fr,91,FR
+Publicbikesystem,sibiu.publicbikesystem.net,85,RO
+Cooltra,maas.zeus.cooltra.com,75,BE|ES|IT|NL
+Publicbikesystem,monaco.publicbikesystem.net,73,MC
+Publicbikesystem,sansebastian.publicbikesystem.net,73,ES
+Publicbikesystem,santana.publicbikesystem.net,73,RO
+Publicbikesystem,acoruna.publicbikesystem.net,72,ES
+Publicbikesystem,bilbao.publicbikesystem.net,72,ES
+Publicbikesystem,dej.publicbikesystem.net,72,RO
+Publicbikesystem,santiago.publicbikesystem.net,72,CL
+Publicbikesystem,targumures.publicbikesystem.net,72,RO
+Ridecheck,api.ridecheck.app,72,NL
+Publicbikesystem,barcelona.publicbikesystem.net,71,ES
+Publicbikesystem,nike.publicbikesystem.net,61,US
+Publicbikesystem,pittsburgh.publicbikesystem.net,61,US
+Publicbikesystem,quebec.publicbikesystem.net,61,CA
+Publicbikesystem,rivas.publicbikesystem.net,61,ES
+Publicbikesystem,tucson.publicbikesystem.net,61,US
+Publicbikesystem,zaragoza.publicbikesystem.net,61,ES
+Publicbikesystem,austin.publicbikesystem.net,60,US
+Publicbikesystem,buenosaires.publicbikesystem.net,60,AR
+Publicbikesystem,clermontferrand.publicbikesystem.net,60,FR
+Publicbikesystem,curitiba.publicbikesystem.net,60,BR
+Publicbikesystem,fortworth.publicbikesystem.net,60,US
+Publicbikesystem,honolulu.publicbikesystem.net,60,US
+Publicbikesystem,madrid.publicbikesystem.net,60,ES
+Publicbikesystem,miamiunderline.publicbikesystem.net,60,US
+Publicbikesystem,pbsn.publicbikesystem.net,60,CA
+Publicbikesystem,stonybrook.publicbikesystem.net,60,US
+Publicbikesystem,valence.publicbikesystem.net,60,FR
+Publicbikesystem,valladolid.publicbikesystem.net,60,ES
+Publicbikesystem,aspen.publicbikesystem.net,59,US
+Publicbikesystem,bogota.publicbikesystem.net,59,CO
+Publicbikesystem,chattanooga.publicbikesystem.net,59,US
+Publicbikesystem,toronto.publicbikesystem.net,58,CA
+Bolt,mds.bolt.eu,56,BE|GB|US
+Mobility Parc,www.mobility-parc.net,55,FR
+Fifteen,gbfs.theta.fifteen.eu,52,FI|FR
+Rideatom,yoio.rideatom.com,51,DE
+Publicbikesystem,saguenay.publicbikesystem.net,49,CA
+Derp,gbfs.derp.si,48,SI
+Publicbikesystem,careem.publicbikesystem.net,47,AE
+Publicbikesystem,moinesti.publicbikesystem.net,46,RO
+Publicbikesystem,riviera.publicbikesystem.net,45,BR
+Publicbikesystem,detroit.publicbikesystem.net,40,US
+Publicbikesystem,nordelta.publicbikesystem.net,40,AR
+"LOVELO Libre-service (GBFS, Rouen)",gbfs.urbansharing.com,37,FR|HU|IT|NO|PL
+Publicbikesystem,portoalegre.publicbikesystem.net,35,BR
+Publicbikesystem,riodejaneiro.publicbikesystem.net,35,BR
+Publicbikesystem,salvador.publicbikesystem.net,35,BR
+Publicbikesystem,saopaulo.publicbikesystem.net,35,BR
+Publicbikesystem,recife.publicbikesystem.net,33,BR
+University of Wisconsin-Madison (ArcGIS Online),services.arcgis.com,33,US
+Okina,api.okina.fr,32,FR
+Transportation,data.transportation.gov,32,US
+Publicbikesystem,brasilia.publicbikesystem.net,28,BR
+Publicbikesystem,guadalajara.publicbikesystem.net,28,MX
+"JOLT Selwyn (GBFS, Selwyn)",prod-api.joltscooters.co.nz,27,NZ
+data.gouv.fr (France open data),api.gbfs.ecovelo.mobi,27,FR
+Vulog,gbfs.vulog.io,26,FR|US
+Fifteen,gbfs.kappa.fifteen.eu,26,CA
+Rideatom,joe.rideatom.com,26,FI
+Sanjoseca,geo.sanjoseca.gov,20,US
+Whitebikes,whitebikes.info,20,SK
+Velobixi,gbfs.velobixi.com,19,CA
+Ganxeta,gbfs.ganxeta.cat,18,ES
+Rideatom,zelectra.rideatom.com,17,UA
+Beryl,gbfs.beryl.cc,16,GB
+data.gouv.fr (France open data),backend.citiz.fr,16,FR
+data.gouv.fr (France open data),gbfs.partners.fifteen.eu,15,FR
+Grandlyon,download.data.grandlyon.com,12,FR
+Linkalock,app.linkalock.com,12,TR
+Smartbike,gbfs.smartbike.com,12,BE
+data.gouv.fr (France open data),proxy.transport.data.gouv.fr,11,FR
+data.gouv.fr (France open data),www.mobility-parc.net,11,FR
+IATI Registry,s3.amazonaws.com,10,US
+Lyftbikes,gbfs.mex.lyftbikes.com,10,MX
+株式会社県交北部交通 - 県交北部交通 路線バス (GTFS_RT),api-public.odpt.org,10,JP
+Bts,data.bts.gov,9,US
+Clem,gbfs.clem.mobi,9,FR
+Fifteen,gbfs.sigma.fifteen.eu,9,FR
+Fifteen,gbfs.omega.fifteen.eu,8,FR
+Grandlyon,data.grandlyon.com,8,FR
+Optymo,data.optymo.fr,8,FR
+Publicbikesystem,hunedoara.publicbikesystem.net,8,RO
+Publicbikesystem,kona.publicbikesystem.net,8,US
+Rideatom,rideride.rideatom.com,8,LV
+Sharedmobility,www.sharedmobility.ch,8,CH
+ArcGIS organization vQ3OYhyPnynK3Zqb,services3.arcgis.com,7,US
+Ftp (Opendatasoft),eu.ftp.opendatasoft.com,7,FR
+GIS Online at UCLA (ArcGIS Online),services7.arcgis.com,7,US
+Quickrent,quickrent.ch,7,CH
+Saint Etienne Metropole,api.saint-etienne-metropole.fr,7,FR
+Sharebike,api.sharebike.com,7,IE
+data.gouv.fr (France open data),mds.bird.co,7,FR
+data.gov.au,data.melbourne.vic.gov.au,7,AU
+Clermontmetropole,opendata.clermontmetropole.eu,6,EU|FR
+Abmitlara,abmitlara.de,6,DE
+Auto Birrer,auto-birrer.ch,6,CH
+Cykl,www.cykl.nl,6,NL
+Ecovelo,api.gbfs.ecovelo.mobi,6,FR
+Locomotion,locomotion.app,6,CA
+Nantesmetropole,data.nantesmetropole.fr,6,FR
+data.gouv.fr (France open data),api.voiapp.io,6,FR
+ArcGIS organization 3wgo1qnFL7YLB8lT,services.arcgis.com,5,CA
+ArcGIS organization 7nsPwEMP38bSkCjy,services5.arcgis.com,5,US
+Delijn,api.delijn.be,5,BE
+Esel,di.esel.ac,5,DE
+Imarguerite,www.imarguerite.com,5,FR
+Moqo,portal.moqo.de,5,DE
+Primelayer,gbfs.primelayer.pt,5,PT
+Virginia,data.virginia.gov,5,US
+car-ship-jetzt.web.app,car-ship-jetzt.web.app,5,DE
+Esri (ArcGIS Online),p3eplmys2rvchkjx.svcs.arcgis.com,4,US
+Gdynia,gbfs.urbansharing.com,4,PL
+Ilevia,media.ilevia.fr,4,FR
+Okina,mobi-iti-nam.okina.fr,4,FR
+Publibike,api.publibike.ch,4,CH
+Toronto Metropolitan University (ArcGIS Online),services7.arcgis.com,4,CA
+Transdev Hdf,stce.transdev-hdf.fr,4,FR
+data.gouv.fr (France open data),services.rideyego.com,4,FR
+ATL EGIS Arcgis online Services (ArcGIS Online),services7.arcgis.com,3,US
+Ampmetropole,data.ampmetropole.fr,3,FR
+ArcGIS Online: Arlington County,gisdata-arlgis.opendata.arcgis.com,3,US
+Esri (ArcGIS Online),services.arcgis.com,3,US
+Lacity,data.lacity.org,3,US
+NYC Open Data (Socrata),data.cityofnewyork.us,3,US
+Transportdata,stables.donkey.bike,3,BE
+"Vélib' Metropole (GBFS, Paris)",velib-metropole-opendata.smovengo.cloud,3,FR
+data.gouv.fr (France open data),data.nantesmetropole.fr,3,FR
+ArcGIS organization IsDCghZ73NgoYoz5,services2.arcgis.com,2,US
+ArcGIS organization LHTfxJAc8MAYk58X,services5.arcgis.com,2,US
+ArcGIS organization ncq7FzMGGy1SPnsh,services5.arcgis.com,2,US
+Canadian Urban Data Catalogue (CUDC),ckan0.cf.opendata.inter.prod-toronto.ca,2,CA
+Citibikenyc,gbfs.citibikenyc.com,2,US
+Foursquare ITP (ArcGIS Online),services8.arcgis.com,2,US
+Idelis,data.idelis.fr,2,FR
+LCOG GIS ONLINE (ArcGIS Online),services5.arcgis.com,2,US
+MTC/ABAG (ArcGIS Online),services3.arcgis.com,2,US
+Montgomerycountymd,geohub.montgomerycountymd.gov,2,US
+Pepr Mobidec,ckan.pepr-mobidec.fr,2,FR
+RideAmigos (ArcGIS Online),services.arcgis.com,2,US
+Rtcsnv,gis.rtcsnv.com,2,US
+Sacramento Area Council of Governments (ArcGIS Online),services6.arcgis.com,2,US
+Tplgis,server5.tplgis.org,2,US
+data.gouv.fr (France open data),api.gbfs.v3.0.ecovelo.mobi,2,FR
+data.gov.au,opendata.transport.nsw.gov.au,2,AU
+maps2.dcgis.dc.gov,maps2.dcgis.dc.gov,2,US
+tabular-api.data.gouv.fr,tabular-api.data.gouv.fr,2,FR
+Admin,www.uvek-gis.admin.ch,1,CH
+Agglo Carene,data.agglo-carene.fr,1,FR
+Albany County NY GIS (ArcGIS Online),services6.arcgis.com,1,US
+Apps Demonstration (ArcGIS Online),services2.arcgis.com,1,US
+ArcGIS Online Content (ArcGIS Online),services3.arcgis.com,1,US
+ArcGIS Online publisher,lkfyxb9zdq7vaoam.svcsdev.arcgis.com,1,US
+ArcGIS organization 79IoFXBn9ZeqmVlC,services5.arcgis.com,1,US
+ArcGIS organization 9NvE8jKNWWlDGsUJ,services1.arcgis.com,1,CN
+ArcGIS organization FrTAN3B3JIkkjl4w,services9.arcgis.com,1,US
+ArcGIS organization O2D69KF7KJAcdYlc,services3.arcgis.com,1,US
+ArcGIS organization Uj62p86sBqQMOJgW,services3.arcgis.com,1,US
+ArcGIS organization WDh76isCq8ymQJ3T,services5.arcgis.com,1,US
+ArcGIS organization WmLCjwqqoqSN5Y2w,services7.arcgis.com,1,US
+ArcGIS organization jU4YVDLdY8n9WFKw,services7.arcgis.com,1,US
+ArcGIS organization nzL4c4YRhWOvffNY,services3.arcgis.com,1,US
+ArcGIS organization sFQypYNbVpYIWIo3,services3.arcgis.com,1,US
+ArcGIS organization w9x0fkENXvuWZY26,services9.arcgis.com,1,US
+Arlingtonva,arlgis.arlingtonva.us,1,US
+Atlantaga,gis.atlantaga.gov,1,US
+Baywheels,gbfs.baywheels.com,1,US
+"Bel Air, Maryland (ArcGIS Online)",services5.arcgis.com,1,US
+Biketownpdx,gbfs.biketownpdx.com,1,US
+Capitalbikeshare,gbfs.capitalbikeshare.com,1,US
+City of Akron GIS (ArcGIS Online),services1.arcgis.com,1,US
+"City of Ames, Iowa (ArcGIS Online)",services.arcgis.com,1,US
+City of Austin (ArcGIS Online),services.arcgis.com,1,US
+City of Burlington (ArcGIS Online),services1.arcgis.com,1,US
+City of Charlotte (ArcGIS Online),services.arcgis.com,1,US
+City of Columbia GIS - South Carolina (ArcGIS Online),services1.arcgis.com,1,US
+"City of Dublin, Ohio (ArcGIS Online)",services1.arcgis.com,1,US
+City of Grand Rapids (ArcGIS Online),services2.arcgis.com,1,US
+City of Keene GIS (ArcGIS Online),services2.arcgis.com,1,US
+"City of Long Beach, CA (ArcGIS Online)",services6.arcgis.com,1,US
+City of Melbourne AGOL (ArcGIS Online),services1.arcgis.com,1,GB
+City of Mesa ArcGIS Online (ArcGIS Online),services2.arcgis.com,1,US
+City of New Haven GIS (ArcGIS Online),services6.arcgis.com,1,US
+City of New Orleans (ArcGIS Online),services.arcgis.com,1,US
+"City of New Westminster, British Columbia, Canada (ArcGIS Online)",services3.arcgis.com,1,US
+City of Oakland GIS (ArcGIS Online),services.arcgis.com,1,US
+City of Omaha (ArcGIS Online),services1.arcgis.com,1,US
+City of Philadelphia (ArcGIS Online),services.arcgis.com,1,US
+City of Raleigh (ArcGIS Online),services.arcgis.com,1,US
+City of San Luis Obispo GIS (ArcGIS Online),services.arcgis.com,1,US
+City of Seattle ArcGIS Online (ArcGIS Online),services.arcgis.com,1,US
+Cityofmadison,maps.cityofmadison.com,1,US
+Columbus,maps2.columbus.gov,1,US
+Cumberland Community Investment District (ArcGIS Online),services9.arcgis.com,1,US
+Cuyahoga County Planning Commission (ArcGIS Online),services8.arcgis.com,1,US
+DataSF (San Francisco),data.sf.gov,1,US
+Daten Bw,api.mobidata-bw.de,1,DE
+Dcgis,dcgis.org,1,US
+Denver Regional Council of Governments (ArcGIS Online),services2.arcgis.com,1,US
+Divvybikes,gbfs.divvybikes.com,1,US
+Dunwoodyga,dungisapp.dunwoodyga.gov,1,US
+Education and Research | Éducation et recherche (ArcGIS Online),services.arcgis.com,1,US
+Emtmadrid,madrid.publicbikesystem.net,1,ES
+Esri Canada - Technology Strategy Group (ArcGIS Online),services.arcgis.com,1,CA
+Field Apps (ArcGIS Online),services.arcgis.com,1,US
+Florida Department of Transportation (ArcGIS Online),services1.arcgis.com,1,US
+Houstontx,geogimstest.houstontx.gov,1,US
+Indy,gis.indy.gov,1,US
+Lochner (ArcGIS Online),services2.arcgis.com,1,US
+Los Angeles Department of Transportation (ArcGIS Online),services1.arcgis.com,1,US
+Mead & Hunt AGOL (ArcGIS Online),services2.arcgis.com,1,US
+Montgomerycountymd,data.montgomerycountymd.gov,1,US
+Montgomerycountymd,gis4.montgomerycountymd.gov,1,US
+New York Metropolitan Transportation Council (ArcGIS Online),services1.arcgis.com,1,US
+Oaklandca,data.oaklandca.gov,1,US
+Portlandmaps,www.portlandmaps.com,1,US
+Publicbikesystem,guad.publicbikesystem.net,1,MX
+Publicbikesystem,poa.publicbikesystem.net,1,BR
+Publicbikesystem,rec.publicbikesystem.net,1,BR
+Publicbikesystem,sbu.publicbikesystem.net,1,US
+Publicbikesystem,tor.publicbikesystem.net,1,CA
+Publicbikesystem,valencefr.publicbikesystem.net,1,FR
+Rtcsnv,webgis.rtcsnv.com,1,US
+Saint Etienne Metropole,bus-prod.saint-etienne-metropole.fr,1,FR
+San Jose State University (ArcGIS Online),services8.arcgis.com,1,US
+Sanjoseca,data.sanjoseca.gov,1,US
+Santabarbaraca,gisportal.santabarbaraca.gov,1,US
+Sharedmobility,sharedmobility.ch,1,CH
+Sustainablesm,data.sustainablesm.org,1,US
+Thedata,gbfs.beryl.cc,1,GB
+Transportdata,be.getaround.com,1,BE
+Transportdata,maas.zeus.cooltra.com,1,BE
+Transportdata,mds.bolt.eu,1,BE
+U.S. Department of Transportation: ArcGIS Online (ArcGIS Online),services.arcgis.com,1,US
+University at Albany - Facilities ArcGIS Online (ArcGIS Online),services3.arcgis.com,1,US
+University of Illinois (ArcGIS Online),services.arcgis.com,1,US
+University of Michigan (ArcGIS Online),services1.arcgis.com,1,US
+University of the South GIS (ArcGIS Online),services1.arcgis.com,1,US
+VHB Maps Online (ArcGIS Online),services1.arcgis.com,1,US
+Virginia Department of Transportation (ArcGIS Online),services.arcgis.com,1,US
+data.bayareametro.gov,data.bayareametro.gov,1,US
+data.gouv.fr (France open data),api.cyclocity.fr,1,FR
+data.gouv.fr (France open data),data.capatlantique.fr,1,FR
+data.gouv.fr (France open data),data.grandlyon.com,1,FR
+data.gouv.fr (France open data),data.idelis.fr,1,FR
+data.gouv.fr (France open data),data.metropolegrenoble.fr,1,FR
+data.gouv.fr (France open data),data.optymo.fr,1,FR
+data.gouv.fr (France open data),fr.getaround.com,1,FR
+data.gouv.fr (France open data),gbfs.api.ridedott.com,1,FR
+data.gouv.fr (France open data),gbfs.clem.mobi,1,FR
+data.gouv.fr (France open data),gbfs.graoulib.fifteen.eu,1,FR
+data.gouv.fr (France open data),media.ilevia.fr,1,FR
+data.gouv.fr (France open data),valence.publicbikesystem.net,1,FR
+transport.data.gouv.fr,transport.data.gouv.fr,1,FR
+ArcGIS organization OO2s4OoyCZkYJ6oE,services6.arcgis.com,1,
+ArcGIS organization tuxY7TQIaDhLWARO,services6.arcgis.com,1,
+Philadelphia Bike Share Stations (JSON),bts-status.bicycletransit.workers.dev,1,
