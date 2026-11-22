@@ -1,0 +1,859 @@
+{
+  "pack": "17k-bike-share-apis-for-agents",
+  "title": "Bike-share API endpoints",
+  "snapshot": "2026-11-15",
+  "tested": {
+    "min": "2026-11-11",
+    "max": "2026-11-15",
+    "text": "11–15 Nov 2026"
+  },
+  "note": "On the date in last_tested (IST), one GET to the URL, sent with no key, returned HTTP 2xx and a non-empty data body. HTML pages and empty results did not pass. The format column records what came back. This is a test result for that date, not a promise that the URL answers today. Licences, terms, rate limits, accuracy and freshness were not reviewed. Endpoints are URLs, not separate APIs; many share one service.",
+  "licence": "CC BY 4.0: credit AgentPopulation and link https://agentpopulation.com",
+  "focus": "title or subcategory matches /gbfs|bike|bicycle|cycle|cycling|velo|vélo|scooter|trottinette|moped|rower|bysykkel|fahrrad|vls|vaels|v'lille|dostępność|libre[- ]service|nextbike|donkey|bird|lime|dott|spin|voi|bolt|pony|beryl|zeus|veo|yego|ryde/i AND NOT title or subcategory matches /autopartage|car[- ]?shar|getaround|citiz|citédia|bildeling|\\bhyre\\b|stadtmobil|flinkster|teilauto|\\bdeer \\(|share birrer|car-ship|marguerite|auto libre-service|auto-en-velay|evie carshare|\\bclem\\b|clem'|mobility \\(switzerland\\)|edrive|conficars|\\bmikar\\b|leo and go/i AND NOT host ends with \"getaround.com\" AND NOT title matches /shared[ _]use|shared_path|share the road|docks piers|culvert/i AND NOT title matches /proposed|preliminary|closed|temporary|internal|survey|expansion|equity|demograph|nearest_public/i",
+  "buckets": [
+    {
+      "id": "agent",
+      "name": "Agent tools",
+      "title": "Bike, dock and scooter availability an agent can look up",
+      "filter": "tags has agent-ready AND url matches /station_status|free_bike_status|vehicle_status/i",
+      "endpoints": 3257,
+      "notes": [
+        "1672 of these are station_status files (bikes and open docks per station or parking hub); the others list dockless vehicles (free_bike_status or vehicle_status)."
+      ],
+      "criteria": "Services in this pack with the most endpoints that match this bucket and are tagged agent-ready (no key sent in the test call, JSON body, passed a data call). Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Sample preference in this bucket: (url matches /station_status/i AND NOT host in (mds.bird.co, gbfs.api.ridedott.com, gbfs.spin.pm, data.lime.bike, zeus.city, cluster-prod.veoride.com, api.voiapp.io, mds.bolt.eu)) OR (url matches /free_bike_status|vehicle_status/i AND host in (mds.bird.co, gbfs.api.ridedott.com, gbfs.spin.pm, data.lime.bike, zeus.city, cluster-prod.veoride.com, api.voiapp.io, mds.bolt.eu)). Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+      "services": [
+        {
+          "service": "Nextbike",
+          "display": "Nextbike",
+          "host": "gbfs.nextbike.net",
+          "endpoints_in_bucket": 591,
+          "endpoints_in_pack": 2662,
+          "country_codes": [
+            "AT",
+            "BA",
+            "BE",
+            "CH",
+            "CY",
+            "CZ",
+            "DE",
+            "ES",
+            "FR",
+            "GB",
+            "GR",
+            "HR",
+            "IT",
+            "LV",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK",
+            "XK"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 2,
+          "sample_url": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_aa/en/station_status.json",
+          "sample_title": "GBFS station_status: biciArteixo (Artexio, ES)",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-14"
+        },
+        {
+          "service": "Donkey",
+          "display": "Donkey",
+          "host": "stables.donkey.bike",
+          "endpoints_in_bucket": 363,
+          "endpoints_in_pack": 1736,
+          "country_codes": [
+            "BE",
+            "CH",
+            "DE",
+            "DK",
+            "ES",
+            "FI",
+            "FR",
+            "GB",
+            "HU",
+            "IS",
+            "LI",
+            "NL",
+            "SE"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://stables.donkey.bike/api/public/gbfs/2/Augsburg/de/station_status.json",
+          "sample_title": "Donkey Republic Augsburg: GBFS station_status [de]: Donkey Republic Augsburg (Augsburg) v2.3",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-15"
+        },
+        {
+          "service": "api.mobidata-bw.de",
+          "display": "api.mobidata-bw.de",
+          "host": "api.mobidata-bw.de",
+          "endpoints_in_bucket": 268,
+          "endpoints_in_pack": 1107,
+          "country_codes": [
+            "CH",
+            "DE",
+            "LI"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 3,
+          "sample_url": "https://api.mobidata-bw.de/sharing/gbfs/v2/bird-chalonsenchampagne/station_status",
+          "sample_title": "MobiData BW sharing: GBFS station_status: bird-chalonsenchampagne",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-15"
+        },
+        {
+          "service": "Bird",
+          "display": "Bird",
+          "host": "mds.bird.co",
+          "endpoints_in_bucket": 266,
+          "endpoints_in_pack": 1237,
+          "country_codes": [
+            "AT",
+            "BE",
+            "CA",
+            "CH",
+            "DE",
+            "ES",
+            "FI",
+            "FR",
+            "IL",
+            "IT",
+            "PT",
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 2,
+          "sample_url": "https://mds.bird.co/gbfs/ajaccio/free_bike_status.json",
+          "sample_title": "Bird Ajaccio: GBFS free_bike_status [en]: Bird Ajaccio (Ajaccio) v1.1",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-15"
+        },
+        {
+          "service": "Fifteen",
+          "display": "Fifteen",
+          "host": "gbfs.partners.fifteen.eu",
+          "endpoints_in_bucket": 113,
+          "endpoints_in_pack": 503,
+          "country_codes": [
+            "DE",
+            "ES",
+            "FR"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 2,
+          "sample_url": "https://gbfs.partners.fifteen.eu/gbfs/2.2/angouleme/en/station_status.json",
+          "sample_title": "GBFS station_status: Vélo Modalis Angoulême (Angoulême)",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-14"
+        },
+        {
+          "service": "Ridedott",
+          "display": "Ridedott",
+          "host": "gbfs.api.ridedott.com",
+          "endpoints_in_bucket": 111,
+          "endpoints_in_pack": 393,
+          "country_codes": [
+            "AE",
+            "BE",
+            "CH",
+            "DE",
+            "DK",
+            "FR",
+            "GB",
+            "IL",
+            "NO",
+            "PL",
+            "SA"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 2,
+          "sample_url": "https://gbfs.api.ridedott.com/public/v2/aachen/free_bike_status.json",
+          "sample_title": "GBFS free_bike_status: Dott Aachen (Aachen)",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-14"
+        },
+        {
+          "service": "Entur",
+          "display": "Entur",
+          "host": "api.entur.io",
+          "endpoints_in_bucket": 87,
+          "endpoints_in_pack": 376,
+          "country_codes": [
+            "NO"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 2,
+          "sample_url": "https://api.entur.io/mobility/v2/gbfs/v2/kolumbusbysykkel/station_status",
+          "sample_title": "Entur mobility: GBFS station_status [nb]: Entur GBFS kolumbusbysykkel",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-15"
+        },
+        {
+          "service": "Ecovelo",
+          "display": "Ecovelo",
+          "host": "api.gbfs.v3.0.ecovelo.mobi",
+          "endpoints_in_bucket": 78,
+          "endpoints_in_pack": 353,
+          "country_codes": [
+            "FR"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 2,
+          "sample_url": "https://api.gbfs.v3.0.ecovelo.mobi/7vallees/station_status.json",
+          "sample_title": "GBFS station_status: 7 Vallées Vélo (Marconne)",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "app",
+      "name": "App features",
+      "title": "Station maps, service areas and no-parking zones",
+      "filter": "url matches /station_information|geofencing_zones|system_regions/i OR (subcategory matches /^ArcGIS feature layer/i AND title matches /bike ?share|bicycle share|bikeshare|brightbike/i)",
+      "endpoints": 4264,
+      "notes": [
+        "1182 of these are geofencing_zones files: GeoJSON zones where riding, parking or speed is limited."
+      ],
+      "criteria": "Services in this pack with the most endpoints that match this bucket and passed a data call. Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Sample preference in this bucket: url matches /station_information/i. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+      "services": [
+        {
+          "service": "Nextbike",
+          "display": "Nextbike",
+          "host": "gbfs.nextbike.net",
+          "endpoints_in_bucket": 888,
+          "endpoints_in_pack": 2662,
+          "country_codes": [
+            "AT",
+            "BA",
+            "BE",
+            "CH",
+            "CY",
+            "CZ",
+            "DE",
+            "ES",
+            "FR",
+            "GB",
+            "GR",
+            "HR",
+            "IT",
+            "LV",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK",
+            "XK"
+          ],
+          "formats": [
+            "json",
+            "geojson"
+          ],
+          "formats_in_pack": 2,
+          "sample_url": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_aa/en/station_information.json",
+          "sample_title": "GBFS station_information: biciArteixo (Artexio, ES)",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-14"
+        },
+        {
+          "service": "Donkey",
+          "display": "Donkey",
+          "host": "stables.donkey.bike",
+          "endpoints_in_bucket": 421,
+          "endpoints_in_pack": 1736,
+          "country_codes": [
+            "BE",
+            "CH",
+            "DE",
+            "DK",
+            "ES",
+            "FI",
+            "FR",
+            "GB",
+            "HU",
+            "IS",
+            "LI",
+            "NL",
+            "SE"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://stables.donkey.bike/api/public/gbfs/2/Augsburg/de/station_information.json",
+          "sample_title": "Donkey Republic Augsburg: GBFS station_information [de]: Donkey Republic Augsburg (Augsburg) v2.3",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-15"
+        },
+        {
+          "service": "Bird",
+          "display": "Bird",
+          "host": "mds.bird.co",
+          "endpoints_in_bucket": 359,
+          "endpoints_in_pack": 1237,
+          "country_codes": [
+            "AT",
+            "BE",
+            "CA",
+            "CH",
+            "DE",
+            "ES",
+            "FI",
+            "FR",
+            "IL",
+            "IT",
+            "PT",
+            "US"
+          ],
+          "formats": [
+            "json",
+            "geojson"
+          ],
+          "formats_in_pack": 2,
+          "sample_url": "https://mds.bird.co/gbfs/v2/public/adeje/station_information.json",
+          "sample_title": "GBFS station_information: Bird Adeje (Adeje)",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-14"
+        },
+        {
+          "service": "api.mobidata-bw.de",
+          "display": "api.mobidata-bw.de",
+          "host": "api.mobidata-bw.de",
+          "endpoints_in_bucket": 240,
+          "endpoints_in_pack": 1107,
+          "country_codes": [
+            "CH",
+            "DE",
+            "LI"
+          ],
+          "formats": [
+            "json",
+            "geojson"
+          ],
+          "formats_in_pack": 3,
+          "sample_url": "https://api.mobidata-bw.de/sharing/gbfs/v2/bird-chalonsenchampagne/station_information",
+          "sample_title": "MobiData BW sharing: GBFS station_information: bird-chalonsenchampagne",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-15"
+        },
+        {
+          "service": "Ecovelo",
+          "display": "Ecovelo",
+          "host": "api.gbfs.v3.0.ecovelo.mobi",
+          "endpoints_in_bucket": 116,
+          "endpoints_in_pack": 353,
+          "country_codes": [
+            "FR"
+          ],
+          "formats": [
+            "json",
+            "geojson"
+          ],
+          "formats_in_pack": 2,
+          "sample_url": "https://api.gbfs.v3.0.ecovelo.mobi/7vallees/station_information.json",
+          "sample_title": "GBFS station_information: 7 Vallées Vélo (Marconne)",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-14"
+        },
+        {
+          "service": "Fifteen",
+          "display": "Fifteen",
+          "host": "gbfs.partners.fifteen.eu",
+          "endpoints_in_bucket": 113,
+          "endpoints_in_pack": 503,
+          "country_codes": [
+            "DE",
+            "ES",
+            "FR"
+          ],
+          "formats": [
+            "json",
+            "geojson"
+          ],
+          "formats_in_pack": 2,
+          "sample_url": "https://gbfs.partners.fifteen.eu/gbfs/2.2/angouleme/en/station_information.json",
+          "sample_title": "GBFS station_information: Vélo Modalis Angoulême (Angoulême)",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-14"
+        },
+        {
+          "service": "Ridedott",
+          "display": "Ridedott",
+          "host": "gbfs.api.ridedott.com",
+          "endpoints_in_bucket": 112,
+          "endpoints_in_pack": 393,
+          "country_codes": [
+            "AE",
+            "BE",
+            "CH",
+            "DE",
+            "DK",
+            "FR",
+            "GB",
+            "IL",
+            "NO",
+            "PL",
+            "SA"
+          ],
+          "formats": [
+            "json",
+            "geojson"
+          ],
+          "formats_in_pack": 2,
+          "sample_url": "https://gbfs.api.ridedott.com/public/v2/aachen/station_information.json",
+          "sample_title": "GBFS station_information: Dott Aachen (Aachen)",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-14"
+        },
+        {
+          "service": "Ecovelo",
+          "display": "Ecovelo",
+          "host": "api.gbfs.v2.2.ecovelo.mobi",
+          "endpoints_in_bucket": 108,
+          "endpoints_in_pack": 431,
+          "country_codes": [
+            "FR"
+          ],
+          "formats": [
+            "json",
+            "geojson"
+          ],
+          "formats_in_pack": 2,
+          "sample_url": "https://api.gbfs.v2.2.ecovelo.mobi/7vallees/fr/station_information.json",
+          "sample_title": "7 Vallées Vélo: GBFS station_information [fr]: 7 Vallées Vélo (Marconne) v2.2",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "grounding",
+      "name": "Grounding and data pipelines",
+      "title": "Operators, prices and vehicle types, plus ridership history",
+      "filter": "url matches /system_information|system_pricing_plans|vehicle_types|system_hours|system_calendar|system_alerts|gbfs_versions|/gbfs(\\.json)?$/i OR (title matches /trip|ridership|patronage|readings 20|historical|inspection/i AND NOT title matches /shared[ _]use|shared_path|share the road|docks piers|culvert/i)",
+      "endpoints": 8386,
+      "notes": [
+        "1960 of these are system_pricing_plans files: unlock fees and per-minute or per-kilometre prices."
+      ],
+      "criteria": "Services in this pack with the most endpoints that match this bucket and passed a data call. Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Sample preference in this bucket: url matches /system_pricing_plans/i. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+      "services": [
+        {
+          "service": "Nextbike",
+          "display": "Nextbike",
+          "host": "gbfs.nextbike.net",
+          "endpoints_in_bucket": 1183,
+          "endpoints_in_pack": 2662,
+          "country_codes": [
+            "AT",
+            "BA",
+            "BE",
+            "CH",
+            "CY",
+            "CZ",
+            "DE",
+            "ES",
+            "FR",
+            "GB",
+            "GR",
+            "HR",
+            "IT",
+            "LV",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK",
+            "XK"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 2,
+          "sample_url": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_aa/en/system_pricing_plans.json",
+          "sample_title": "GBFS system_pricing_plans: biciArteixo (Artexio, ES)",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-14"
+        },
+        {
+          "service": "Donkey",
+          "display": "Donkey",
+          "host": "stables.donkey.bike",
+          "endpoints_in_bucket": 952,
+          "endpoints_in_pack": 1736,
+          "country_codes": [
+            "BE",
+            "CH",
+            "DE",
+            "DK",
+            "ES",
+            "FI",
+            "FR",
+            "GB",
+            "HU",
+            "IS",
+            "LI",
+            "NL",
+            "SE"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://stables.donkey.bike/api/public/gbfs/2/Augsburg/de/system_pricing_plans.json",
+          "sample_title": "Donkey Republic Augsburg: GBFS system_pricing_plans [de]: Donkey Republic Augsburg (Augsburg) v2.3",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-15"
+        },
+        {
+          "service": "Bird",
+          "display": "Bird",
+          "host": "mds.bird.co",
+          "endpoints_in_bucket": 612,
+          "endpoints_in_pack": 1237,
+          "country_codes": [
+            "AT",
+            "BE",
+            "CA",
+            "CH",
+            "DE",
+            "ES",
+            "FI",
+            "FR",
+            "IL",
+            "IT",
+            "PT",
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 2,
+          "sample_url": "https://mds.bird.co/gbfs/v2/public/adeje/system_pricing_plans.json",
+          "sample_title": "GBFS system_pricing_plans: Bird Adeje (Adeje)",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-14"
+        },
+        {
+          "service": "api.mobidata-bw.de",
+          "display": "api.mobidata-bw.de",
+          "host": "api.mobidata-bw.de",
+          "endpoints_in_bucket": 598,
+          "endpoints_in_pack": 1107,
+          "country_codes": [
+            "CH",
+            "DE",
+            "LI"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 3,
+          "sample_url": "https://api.mobidata-bw.de/sharing/gbfs/v2/bird-basel/system_pricing_plans",
+          "sample_title": "MobiData BW sharing: GBFS system_pricing_plans: bird-basel",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-15"
+        },
+        {
+          "service": "Fifteen",
+          "display": "Fifteen",
+          "host": "gbfs.partners.fifteen.eu",
+          "endpoints_in_bucket": 277,
+          "endpoints_in_pack": 503,
+          "country_codes": [
+            "DE",
+            "ES",
+            "FR"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 2,
+          "sample_url": "https://gbfs.partners.fifteen.eu/gbfs/2.2/angouleme/en/system_pricing_plans.json",
+          "sample_title": "GBFS system_pricing_plans: Vélo Modalis Angoulême (Angoulême)",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-14"
+        },
+        {
+          "service": "Rideyego",
+          "display": "Rideyego",
+          "host": "services.rideyego.com",
+          "endpoints_in_bucket": 276,
+          "endpoints_in_pack": 372,
+          "country_codes": [
+            "FR"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 2,
+          "sample_url": "https://services.rideyego.com/gbfs/1-1/bordeaux/en/system_pricing_plans",
+          "sample_title": "YEGO Bordeaux: GBFS system_pricing_plans [en]: YEGO Bordeaux (Bordeaux) v1.1",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-15"
+        },
+        {
+          "service": "Lyft",
+          "display": "Lyft",
+          "host": "gbfs.lyft.com",
+          "endpoints_in_bucket": 273,
+          "endpoints_in_pack": 447,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://gbfs.lyft.com/gbfs/1.1/bay/en/system_pricing_plans.json",
+          "sample_title": "Motivate LLC: GBFS system_pricing_plans [en]: Bay Wheels (San Francisco Bay Area, CA)",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-15"
+        },
+        {
+          "service": "Ecovelo",
+          "display": "Ecovelo",
+          "host": "api.gbfs.v2.2.ecovelo.mobi",
+          "endpoints_in_bucket": 251,
+          "endpoints_in_pack": 431,
+          "country_codes": [
+            "FR"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 2,
+          "sample_url": "https://api.gbfs.v2.2.ecovelo.mobi/7vallees/fr/system_pricing_plans.json",
+          "sample_title": "7 Vallées Vélo: GBFS system_pricing_plans [fr]: 7 Vallées Vélo (Marconne) v2.2",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "name": "Evals and testing",
+      "title": "GBFS files across versions and operators to test a feed parser",
+      "filter": "the whole pack",
+      "endpoints": 17059,
+      "notes": [],
+      "criteria": "Services in this pack that returned the most different formats, then the most endpoints that passed a data call, then by name: a mix of response shapes to test parsers and tool calls. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+      "services": [
+        {
+          "service": "api.mobidata-bw.de",
+          "display": "api.mobidata-bw.de",
+          "host": "api.mobidata-bw.de",
+          "endpoints_in_bucket": 1107,
+          "endpoints_in_pack": 1107,
+          "country_codes": [
+            "CH",
+            "DE",
+            "LI"
+          ],
+          "formats": [
+            "json",
+            "geojson",
+            "csv"
+          ],
+          "formats_in_pack": 3,
+          "sample_url": "https://api.mobidata-bw.de/sharing/gbfs/v2/bird-basel/free_bike_status",
+          "sample_title": "MobiData BW sharing: GBFS free_bike_status: bird-basel",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-15"
+        },
+        {
+          "service": "Voiapp",
+          "display": "Voiapp",
+          "host": "api.voiapp.io",
+          "endpoints_in_bucket": 128,
+          "endpoints_in_pack": 128,
+          "country_codes": [
+            "BE",
+            "DE",
+            "FR"
+          ],
+          "formats": [
+            "json",
+            "zip",
+            "geojson"
+          ],
+          "formats_in_pack": 3,
+          "sample_url": "https://api.voiapp.io/gbfs/be/7a4cb689-a2ee-409d-a5fe-49d2e8d50717/v2/free_bike_status.json",
+          "sample_title": "GBFS free_bike_status: VOI Antwerp (Antwerp)",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-14"
+        },
+        {
+          "service": "Transportation",
+          "display": "Transportation",
+          "host": "data.transportation.gov",
+          "endpoints_in_bucket": 32,
+          "endpoints_in_pack": 32,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json",
+            "csv",
+            "xml"
+          ],
+          "formats_in_pack": 3,
+          "sample_url": "https://data.transportation.gov/api/v3/views/6cfa-ipzd/query.json?accessType=DOWNLOAD",
+          "sample_title": "U.S Department of Transportation: ckan_resource_json",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-15"
+        },
+        {
+          "service": "data.gov.au",
+          "display": "data.gov.au",
+          "host": "data.melbourne.vic.gov.au",
+          "endpoints_in_bucket": 7,
+          "endpoints_in_pack": 7,
+          "country_codes": [
+            "AU"
+          ],
+          "formats": [
+            "json",
+            "csv",
+            "geojson"
+          ],
+          "formats_in_pack": 3,
+          "sample_url": "https://data.melbourne.vic.gov.au/api/explore/v2.1/catalog/datasets/bike-share-dock-locations/records?limit=1",
+          "sample_title": "Bike Share Dock Locations",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-12"
+        },
+        {
+          "service": "ArcGIS Online: Arlington County",
+          "display": "ArcGIS Online: Arlington County",
+          "host": "gisdata-arlgis.opendata.arcgis.com",
+          "endpoints_in_bucket": 3,
+          "endpoints_in_pack": 3,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "csv",
+            "geojson",
+            "xml"
+          ],
+          "formats_in_pack": 3,
+          "sample_url": "https://gisdata-arlgis.opendata.arcgis.com/api/download/v1/items/7da2d4682a304e0dad4c5196c277abea/csv?layers=0",
+          "sample_title": "Arlington County - GIS Portal: ckan_resource_csv",
+          "sample_format": "csv",
+          "sample_last_tested": "2026-11-15"
+        },
+        {
+          "service": "Nextbike",
+          "display": "Nextbike",
+          "host": "gbfs.nextbike.net",
+          "endpoints_in_bucket": 2662,
+          "endpoints_in_pack": 2662,
+          "country_codes": [
+            "AT",
+            "BA",
+            "BE",
+            "CH",
+            "CY",
+            "CZ",
+            "DE",
+            "ES",
+            "FR",
+            "GB",
+            "GR",
+            "HR",
+            "IT",
+            "LV",
+            "PL",
+            "PT",
+            "RO",
+            "SE",
+            "SI",
+            "SK",
+            "XK"
+          ],
+          "formats": [
+            "json",
+            "geojson"
+          ],
+          "formats_in_pack": 2,
+          "sample_url": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_aa/en/free_bike_status.json",
+          "sample_title": "GBFS free_bike_status: biciArteixo (Artexio, ES)",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-14"
+        },
+        {
+          "service": "Bird",
+          "display": "Bird",
+          "host": "mds.bird.co",
+          "endpoints_in_bucket": 1237,
+          "endpoints_in_pack": 1237,
+          "country_codes": [
+            "AT",
+            "BE",
+            "CA",
+            "CH",
+            "DE",
+            "ES",
+            "FI",
+            "FR",
+            "IL",
+            "IT",
+            "PT",
+            "US"
+          ],
+          "formats": [
+            "json",
+            "geojson"
+          ],
+          "formats_in_pack": 2,
+          "sample_url": "https://mds.bird.co/gbfs/ajaccio/free_bike_status.json",
+          "sample_title": "Bird Ajaccio: GBFS free_bike_status [en]: Bird Ajaccio (Ajaccio) v1.1",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-15"
+        },
+        {
+          "service": "Fifteen",
+          "display": "Fifteen",
+          "host": "gbfs.partners.fifteen.eu",
+          "endpoints_in_bucket": 503,
+          "endpoints_in_pack": 503,
+          "country_codes": [
+            "DE",
+            "ES",
+            "FR"
+          ],
+          "formats": [
+            "json",
+            "geojson"
+          ],
+          "formats_in_pack": 2,
+          "sample_url": "https://gbfs.partners.fifteen.eu/gbfs/2.2/angouleme/en/free_bike_status.json",
+          "sample_title": "GBFS free_bike_status: Vélo Modalis Angoulême (Angoulême)",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-14"
+        }
+      ]
+    }
+  ]
+}

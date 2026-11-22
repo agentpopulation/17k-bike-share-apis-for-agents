@@ -1,0 +1,2119 @@
+{
+  "repo": "bike-share-api-endpoints",
+  "title": "Bike-share API endpoints",
+  "snapshot": "2026-11-15",
+  "snapshot_text": "15 Nov 2026",
+  "snapshot_time": "2026-11-15 09:06:22 IST",
+  "run": false,
+  "tested_total": 5129834,
+  "passed_total": 3726509,
+  "rows": 17059,
+  "unique_urls": 17059,
+  "services": 267,
+  "country_codes": 60,
+  "single_country": null,
+  "agent_ready": 16074,
+  "range": {
+    "min": "2026-11-11",
+    "max": "2026-11-15",
+    "text": "11–15 Nov 2026"
+  },
+  "formats": {
+    "json": 16074,
+    "geojson": 924,
+    "zip": 27,
+    "csv": 24,
+    "xml": 10
+  },
+  "categories": {
+    "Transport & Mobility": 17029,
+    "Government & Open Data": 26,
+    "Weather & Climate": 2,
+    "Hazards": 1,
+    "Other": 1
+  },
+  "tags": {
+    "bike-share": 17059,
+    "no-key": 17059,
+    "transit": 17032,
+    "agent-ready": 16074,
+    "json": 16074,
+    "gbfs": 16051,
+    "maps": 2790,
+    "geojson": 924,
+    "open-data": 266,
+    "government": 32,
+    "csv": 24,
+    "traffic": 13,
+    "maritime": 11,
+    "xml": 10,
+    "health": 2,
+    "parking": 2,
+    "weather": 2,
+    "climate": 1,
+    "hazards": 1,
+    "science": 1
+  },
+  "dates": {
+    "2026-11-15": 8960,
+    "2026-11-14": 7937,
+    "2026-11-13": 2,
+    "2026-11-12": 133,
+    "2026-11-11": 27
+  },
+  "countryNames": {
+    "AR": "Argentina",
+    "AT": "Austria",
+    "CZ": "Czechia",
+    "DE": "Germany",
+    "ES": "Spain",
+    "FR": "France",
+    "HR": "Croatia",
+    "IT": "Italy",
+    "PL": "Poland",
+    "PT": "Portugal",
+    "RO": "Romania",
+    "SE": "Sweden",
+    "SI": "Slovenia",
+    "SK": "Slovakia",
+    "BA": "Bosnia and Herzegovina",
+    "BE": "Belgium",
+    "CH": "Switzerland",
+    "CY": "Cyprus",
+    "GB": "United Kingdom",
+    "NO": "Norway",
+    "BR": "Brazil",
+    "CA": "Canada",
+    "FI": "Finland",
+    "IL": "Israel",
+    "US": "United States",
+    "CO": "Colombia",
+    "DK": "Denmark",
+    "NL": "Netherlands",
+    "MY": "Malaysia",
+    "LT": "Lithuania",
+    "JP": "Japan",
+    "NZ": "New Zealand",
+    "AU": "Australia",
+    "MX": "Mexico",
+    "MC": "Monaco",
+    "AE": "United Arab Emirates",
+    "CL": "Chile",
+    "IN": "India",
+    "KR": "South Korea",
+    "SA": "Saudi Arabia",
+    "GR": "Greece",
+    "LV": "Latvia",
+    "XK": "Kosovo",
+    "HU": "Hungary",
+    "IE": "Ireland",
+    "LU": "Luxembourg",
+    "TR": "Turkiye",
+    "TW": "Taiwan",
+    "IS": "Iceland",
+    "UA": "Ukraine",
+    "PE": "Peru",
+    "LI": "Liechtenstein",
+    "CR": "Costa Rica",
+    "CN": "China",
+    "EC": "Ecuador",
+    "MT": "Malta",
+    "KZ": "Kazakhstan",
+    "GE": "Georgia",
+    "EU": "European Union",
+    "ME": "Montenegro"
+  },
+  "leftOutCredential": 0,
+  "leftOutListing": 0,
+  "left_out_by_reason": {
+    "listing page, not a data call": 0,
+    "credential in the address": 0,
+    "private or local address": 0,
+    "email-like address": 0,
+    "survey form layer": 2,
+    "camera or image URL": 0,
+    "stored-login proxy": 0,
+    "class-exercise copy": 0,
+    "editable layer": 0,
+    "police stop records": 0,
+    "form answer layer": 1,
+    "needs an Indian network location": 0,
+    "leak check match": 0,
+    "coursework layer": 2,
+    "public input layer": 0,
+    "personal records layer": 0,
+    "service name like a class layer or a person": 0,
+    "social network server information": 0,
+    "another address of a left-out layer": 0,
+    "teaching organisation": 0,
+    "class account organisation": 12,
+    "class set layer": 0,
+    "university, college or school organisation": 49,
+    "repeated address": 0,
+    "address already in an earlier pack": 0,
+    "layer already in an earlier pack": 0,
+    "second address form of a layer": 0
+  },
+  "leftOutExcluded": 0,
+  "left_out_by_rule": [],
+  "sample_rows": 1000,
+  "focus_rows": 15832,
+  "arcgis_online_rows": 78,
+  "subcategories": {},
+  "agent_formats": [
+    "json"
+  ],
+  "largestServices": [
+    {
+      "service": "Nextbike",
+      "display": "Nextbike",
+      "host": "gbfs.nextbike.net",
+      "endpoints": 2662,
+      "agent_ready": 2376,
+      "in_focus": 2662,
+      "country_codes": 21,
+      "formats": [
+        "json",
+        "geojson"
+      ]
+    },
+    {
+      "service": "Donkey",
+      "display": "Donkey",
+      "host": "stables.donkey.bike",
+      "endpoints": 1736,
+      "agent_ready": 1736,
+      "in_focus": 1736,
+      "country_codes": 13,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Bird",
+      "display": "Bird",
+      "host": "mds.bird.co",
+      "endpoints": 1237,
+      "agent_ready": 1224,
+      "in_focus": 1237,
+      "country_codes": 12,
+      "formats": [
+        "json",
+        "geojson"
+      ]
+    },
+    {
+      "service": "api.mobidata-bw.de",
+      "display": "api.mobidata-bw.de",
+      "host": "api.mobidata-bw.de",
+      "endpoints": 1107,
+      "agent_ready": 1049,
+      "in_focus": 886,
+      "country_codes": 3,
+      "formats": [
+        "json",
+        "geojson",
+        "csv"
+      ]
+    },
+    {
+      "service": "Citybik",
+      "display": "Citybik",
+      "host": "api.citybik.es",
+      "endpoints": 813,
+      "agent_ready": 813,
+      "in_focus": 813,
+      "country_codes": 52,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Getaround",
+      "display": "Getaround",
+      "host": "getaround.com",
+      "endpoints": 718,
+      "agent_ready": 718,
+      "in_focus": 0,
+      "country_codes": 6,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Fifteen",
+      "display": "Fifteen",
+      "host": "gbfs.partners.fifteen.eu",
+      "endpoints": 503,
+      "agent_ready": 458,
+      "in_focus": 503,
+      "country_codes": 3,
+      "formats": [
+        "json",
+        "geojson"
+      ]
+    },
+    {
+      "service": "Lyft",
+      "display": "Lyft",
+      "host": "gbfs.lyft.com",
+      "endpoints": 447,
+      "agent_ready": 447,
+      "in_focus": 447,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Ecovelo",
+      "display": "Ecovelo",
+      "host": "api.gbfs.v2.2.ecovelo.mobi",
+      "endpoints": 431,
+      "agent_ready": 397,
+      "in_focus": 431,
+      "country_codes": 1,
+      "formats": [
+        "json",
+        "geojson"
+      ]
+    },
+    {
+      "service": "Ridedott",
+      "display": "Ridedott",
+      "host": "gbfs.api.ridedott.com",
+      "endpoints": 393,
+      "agent_ready": 353,
+      "in_focus": 393,
+      "country_codes": 11,
+      "formats": [
+        "json",
+        "geojson"
+      ]
+    },
+    {
+      "service": "Entur",
+      "display": "Entur",
+      "host": "api.entur.io",
+      "endpoints": 376,
+      "agent_ready": 342,
+      "in_focus": 358,
+      "country_codes": 1,
+      "formats": [
+        "json",
+        "geojson"
+      ]
+    },
+    {
+      "service": "Bcycle",
+      "display": "Bcycle",
+      "host": "gbfs.bcycle.com",
+      "endpoints": 374,
+      "agent_ready": 374,
+      "in_focus": 374,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Rideyego",
+      "display": "Rideyego",
+      "host": "services.rideyego.com",
+      "endpoints": 372,
+      "agent_ready": 336,
+      "in_focus": 372,
+      "country_codes": 1,
+      "formats": [
+        "json",
+        "geojson"
+      ]
+    },
+    {
+      "service": "Ecovelo",
+      "display": "Ecovelo",
+      "host": "api.gbfs.v3.0.ecovelo.mobi",
+      "endpoints": 353,
+      "agent_ready": 317,
+      "in_focus": 353,
+      "country_codes": 1,
+      "formats": [
+        "json",
+        "geojson"
+      ]
+    },
+    {
+      "service": "Spin",
+      "display": "Spin",
+      "host": "gbfs.spin.pm",
+      "endpoints": 315,
+      "agent_ready": 312,
+      "in_focus": 315,
+      "country_codes": 1,
+      "formats": [
+        "json",
+        "geojson"
+      ]
+    },
+    {
+      "service": "Zeus",
+      "display": "Zeus",
+      "host": "zeus.city",
+      "endpoints": 270,
+      "agent_ready": 225,
+      "in_focus": 270,
+      "country_codes": 6,
+      "formats": [
+        "json",
+        "geojson"
+      ]
+    },
+    {
+      "service": "beryl-gbfs-production.web.app",
+      "display": "beryl-gbfs-production.web.app",
+      "host": "beryl-gbfs-production.web.app",
+      "endpoints": 242,
+      "agent_ready": 218,
+      "in_focus": 242,
+      "country_codes": 2,
+      "formats": [
+        "json",
+        "geojson"
+      ]
+    },
+    {
+      "service": "Cyclocity",
+      "display": "Cyclocity",
+      "host": "api.cyclocity.fr",
+      "endpoints": 226,
+      "agent_ready": 226,
+      "in_focus": 226,
+      "country_codes": 10,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Citiz",
+      "display": "Citiz",
+      "host": "backend.citiz.fr",
+      "endpoints": 144,
+      "agent_ready": 127,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json",
+        "geojson"
+      ]
+    },
+    {
+      "service": "Rideflamingo",
+      "display": "Rideflamingo",
+      "host": "data.rideflamingo.com",
+      "endpoints": 144,
+      "agent_ready": 128,
+      "in_focus": 144,
+      "country_codes": 1,
+      "formats": [
+        "json",
+        "geojson"
+      ]
+    },
+    {
+      "service": "Veoride",
+      "display": "Veoride",
+      "host": "cluster-prod.veoride.com",
+      "endpoints": 144,
+      "agent_ready": 144,
+      "in_focus": 144,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Voiapp",
+      "display": "Voiapp",
+      "host": "api.voiapp.io",
+      "endpoints": 128,
+      "agent_ready": 100,
+      "in_focus": 128,
+      "country_codes": 3,
+      "formats": [
+        "json",
+        "zip",
+        "geojson"
+      ]
+    },
+    {
+      "service": "proxy.transport.data.gouv.fr",
+      "display": "proxy.transport.data.gouv.fr",
+      "host": "proxy.transport.data.gouv.fr",
+      "endpoints": 91,
+      "agent_ready": 91,
+      "in_focus": 91,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Publicbikesystem",
+      "display": "Publicbikesystem",
+      "host": "sibiu.publicbikesystem.net",
+      "endpoints": 85,
+      "agent_ready": 85,
+      "in_focus": 85,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Cooltra",
+      "display": "Cooltra",
+      "host": "maas.zeus.cooltra.com",
+      "endpoints": 75,
+      "agent_ready": 60,
+      "in_focus": 75,
+      "country_codes": 4,
+      "formats": [
+        "json",
+        "geojson"
+      ]
+    }
+  ],
+  "bannerGroups": [
+    {
+      "label": "FR",
+      "n": 3450,
+      "agent": 3222
+    },
+    {
+      "label": "DE",
+      "n": 2856,
+      "agent": 2655
+    },
+    {
+      "label": "US",
+      "n": 2631,
+      "agent": 2549
+    },
+    {
+      "label": "ES",
+      "n": 1009,
+      "agent": 962
+    },
+    {
+      "label": "CZ",
+      "n": 783,
+      "agent": 701
+    },
+    {
+      "label": "CH",
+      "n": 579,
+      "agent": 563
+    }
+  ],
+  "focus_text": "title or subcategory matches /gbfs|bike|bicycle|cycle|cycling|velo|vélo|scooter|trottinette|moped|rower|bysykkel|fahrrad|vls|vaels|v'lille|dostępność|libre[- ]service|nextbike|donkey|bird|lime|dott|spin|voi|bolt|pony|beryl|zeus|veo|yego|ryde/i AND NOT title or subcategory matches /autopartage|car[- ]?shar|getaround|citiz|citédia|bildeling|\\bhyre\\b|stadtmobil|flinkster|teilauto|\\bdeer \\(|share birrer|car-ship|marguerite|auto libre-service|auto-en-velay|evie carshare|\\bclem\\b|clem'|mobility \\(switzerland\\)|edrive|conficars|\\bmikar\\b|leo and go/i AND NOT host ends with \"getaround.com\" AND NOT title matches /shared[ _]use|shared_path|share the road|docks piers|culvert/i AND NOT title matches /proposed|preliminary|closed|temporary|internal|survey|expansion|equity|demograph|nearest_public/i",
+  "buckets": [
+    {
+      "id": "agent",
+      "emoji": "🤖",
+      "name": "Agent tools",
+      "title": "Bike, dock and scooter availability an agent can look up",
+      "build": "Wrap one station_status or vehicle_status URL as a get_bike_availability tool: pass the system and a station or a point, return bikes, e-bikes and open docks, or the nearest available vehicles, with the feed's last_updated time.",
+      "filter": {
+        "and": [
+          {
+            "tag": "agent-ready"
+          },
+          {
+            "urlMatches": "station_status|free_bike_status|vehicle_status"
+          }
+        ]
+      },
+      "filter_text": "tags has agent-ready AND url matches /station_status|free_bike_status|vehicle_status/i",
+      "fallback": false,
+      "notes": [
+        {
+          "count": 1672,
+          "text": "are `station_status` files (bikes and open docks per station or parking hub); the others list dockless vehicles (`free_bike_status` or `vehicle_status`)."
+        }
+      ],
+      "count": 3257,
+      "services_matching": 119,
+      "country_codes_matching": 47,
+      "formats_matching": 1,
+      "example": {
+        "url": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_aa/en/station_status.json",
+        "title": "GBFS station_status: biciArteixo (Artexio, ES)",
+        "service": "Nextbike",
+        "last_tested": "2026-11-14"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and are tagged `agent-ready` (no key sent in the test call, JSON body, passed a data call). Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Sample preference in this bucket: `(url matches /station_status/i AND NOT host in (mds.bird.co, gbfs.api.ridedott.com, gbfs.spin.pm, data.lime.bike, zeus.city, cluster-prod.veoride.com, api.voiapp.io, mds.bolt.eu)) OR (url matches /free_bike_status|vehicle_status/i AND host in (mds.bird.co, gbfs.api.ridedott.com, gbfs.spin.pm, data.lime.bike, zeus.city, cluster-prod.veoride.com, api.voiapp.io, mds.bolt.eu))`. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 110,
+        "services": [
+          {
+            "service": "Nextbike",
+            "display": "Nextbike",
+            "host": "gbfs.nextbike.net",
+            "endpoints_in_bucket": 591,
+            "endpoints_in_pack": 2662,
+            "country_codes": [
+              "AT",
+              "BA",
+              "BE",
+              "CH",
+              "CY",
+              "CZ",
+              "DE",
+              "ES",
+              "FR",
+              "GB",
+              "GR",
+              "HR",
+              "IT",
+              "LV",
+              "PL",
+              "PT",
+              "RO",
+              "SE",
+              "SI",
+              "SK",
+              "XK"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_aa/en/station_status.json",
+            "sample_title": "GBFS station_status: biciArteixo (Artexio, ES)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Donkey",
+            "display": "Donkey",
+            "host": "stables.donkey.bike",
+            "endpoints_in_bucket": 363,
+            "endpoints_in_pack": 1736,
+            "country_codes": [
+              "BE",
+              "CH",
+              "DE",
+              "DK",
+              "ES",
+              "FI",
+              "FR",
+              "GB",
+              "HU",
+              "IS",
+              "LI",
+              "NL",
+              "SE"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://stables.donkey.bike/api/public/gbfs/2/Augsburg/de/station_status.json",
+            "sample_title": "Donkey Republic Augsburg: GBFS station_status [de]: Donkey Republic Augsburg (Augsburg) v2.3",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "api.mobidata-bw.de",
+            "display": "api.mobidata-bw.de",
+            "host": "api.mobidata-bw.de",
+            "endpoints_in_bucket": 268,
+            "endpoints_in_pack": 1107,
+            "country_codes": [
+              "CH",
+              "DE",
+              "LI"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://api.mobidata-bw.de/sharing/gbfs/v2/bird-chalonsenchampagne/station_status",
+            "sample_title": "MobiData BW sharing: GBFS station_status: bird-chalonsenchampagne",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Bird",
+            "display": "Bird",
+            "host": "mds.bird.co",
+            "endpoints_in_bucket": 266,
+            "endpoints_in_pack": 1237,
+            "country_codes": [
+              "AT",
+              "BE",
+              "CA",
+              "CH",
+              "DE",
+              "ES",
+              "FI",
+              "FR",
+              "IL",
+              "IT",
+              "PT",
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://mds.bird.co/gbfs/ajaccio/free_bike_status.json",
+            "sample_title": "Bird Ajaccio: GBFS free_bike_status [en]: Bird Ajaccio (Ajaccio) v1.1",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Fifteen",
+            "display": "Fifteen",
+            "host": "gbfs.partners.fifteen.eu",
+            "endpoints_in_bucket": 113,
+            "endpoints_in_pack": 503,
+            "country_codes": [
+              "DE",
+              "ES",
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://gbfs.partners.fifteen.eu/gbfs/2.2/angouleme/en/station_status.json",
+            "sample_title": "GBFS station_status: Vélo Modalis Angoulême (Angoulême)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Ridedott",
+            "display": "Ridedott",
+            "host": "gbfs.api.ridedott.com",
+            "endpoints_in_bucket": 111,
+            "endpoints_in_pack": 393,
+            "country_codes": [
+              "AE",
+              "BE",
+              "CH",
+              "DE",
+              "DK",
+              "FR",
+              "GB",
+              "IL",
+              "NO",
+              "PL",
+              "SA"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://gbfs.api.ridedott.com/public/v2/aachen/free_bike_status.json",
+            "sample_title": "GBFS free_bike_status: Dott Aachen (Aachen)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Entur",
+            "display": "Entur",
+            "host": "api.entur.io",
+            "endpoints_in_bucket": 87,
+            "endpoints_in_pack": 376,
+            "country_codes": [
+              "NO"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://api.entur.io/mobility/v2/gbfs/v2/kolumbusbysykkel/station_status",
+            "sample_title": "Entur mobility: GBFS station_status [nb]: Entur GBFS kolumbusbysykkel",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Ecovelo",
+            "display": "Ecovelo",
+            "host": "api.gbfs.v3.0.ecovelo.mobi",
+            "endpoints_in_bucket": 78,
+            "endpoints_in_pack": 353,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://api.gbfs.v3.0.ecovelo.mobi/7vallees/station_status.json",
+            "sample_title": "GBFS station_status: 7 Vallées Vélo (Marconne)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          }
+        ]
+      }
+    },
+    {
+      "id": "app",
+      "emoji": "📱",
+      "name": "App features",
+      "title": "Station maps, service areas and no-parking zones",
+      "build": "Draw a station map for one city from station_information (name, position, capacity), shade the service area from system_regions, and mark no-ride and no-parking zones from geofencing_zones.",
+      "filter": {
+        "or": [
+          {
+            "urlMatches": "station_information|geofencing_zones|system_regions"
+          },
+          {
+            "and": [
+              {
+                "subcategoryMatches": "^ArcGIS feature layer"
+              },
+              {
+                "titleMatches": "bike ?share|bicycle share|bikeshare|brightbike"
+              }
+            ]
+          }
+        ]
+      },
+      "filter_text": "url matches /station_information|geofencing_zones|system_regions/i OR (subcategory matches /^ArcGIS feature layer/i AND title matches /bike ?share|bicycle share|bikeshare|brightbike/i)",
+      "fallback": false,
+      "notes": [
+        {
+          "count": 1182,
+          "text": "are `geofencing_zones` files: GeoJSON zones where riding, parking or speed is limited."
+        }
+      ],
+      "count": 4264,
+      "services_matching": 151,
+      "country_codes_matching": 47,
+      "formats_matching": 2,
+      "example": {
+        "url": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_aa/en/station_information.json",
+        "title": "GBFS station_information: biciArteixo (Artexio, ES)",
+        "service": "Nextbike",
+        "last_tested": "2026-11-14"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and passed a data call. Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Sample preference in this bucket: `url matches /station_information/i`. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 133,
+        "services": [
+          {
+            "service": "Nextbike",
+            "display": "Nextbike",
+            "host": "gbfs.nextbike.net",
+            "endpoints_in_bucket": 888,
+            "endpoints_in_pack": 2662,
+            "country_codes": [
+              "AT",
+              "BA",
+              "BE",
+              "CH",
+              "CY",
+              "CZ",
+              "DE",
+              "ES",
+              "FR",
+              "GB",
+              "GR",
+              "HR",
+              "IT",
+              "LV",
+              "PL",
+              "PT",
+              "RO",
+              "SE",
+              "SI",
+              "SK",
+              "XK"
+            ],
+            "formats": [
+              "json",
+              "geojson"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_aa/en/station_information.json",
+            "sample_title": "GBFS station_information: biciArteixo (Artexio, ES)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Donkey",
+            "display": "Donkey",
+            "host": "stables.donkey.bike",
+            "endpoints_in_bucket": 421,
+            "endpoints_in_pack": 1736,
+            "country_codes": [
+              "BE",
+              "CH",
+              "DE",
+              "DK",
+              "ES",
+              "FI",
+              "FR",
+              "GB",
+              "HU",
+              "IS",
+              "LI",
+              "NL",
+              "SE"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://stables.donkey.bike/api/public/gbfs/2/Augsburg/de/station_information.json",
+            "sample_title": "Donkey Republic Augsburg: GBFS station_information [de]: Donkey Republic Augsburg (Augsburg) v2.3",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Bird",
+            "display": "Bird",
+            "host": "mds.bird.co",
+            "endpoints_in_bucket": 359,
+            "endpoints_in_pack": 1237,
+            "country_codes": [
+              "AT",
+              "BE",
+              "CA",
+              "CH",
+              "DE",
+              "ES",
+              "FI",
+              "FR",
+              "IL",
+              "IT",
+              "PT",
+              "US"
+            ],
+            "formats": [
+              "json",
+              "geojson"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://mds.bird.co/gbfs/v2/public/adeje/station_information.json",
+            "sample_title": "GBFS station_information: Bird Adeje (Adeje)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "api.mobidata-bw.de",
+            "display": "api.mobidata-bw.de",
+            "host": "api.mobidata-bw.de",
+            "endpoints_in_bucket": 240,
+            "endpoints_in_pack": 1107,
+            "country_codes": [
+              "CH",
+              "DE",
+              "LI"
+            ],
+            "formats": [
+              "json",
+              "geojson"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://api.mobidata-bw.de/sharing/gbfs/v2/bird-chalonsenchampagne/station_information",
+            "sample_title": "MobiData BW sharing: GBFS station_information: bird-chalonsenchampagne",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Ecovelo",
+            "display": "Ecovelo",
+            "host": "api.gbfs.v3.0.ecovelo.mobi",
+            "endpoints_in_bucket": 116,
+            "endpoints_in_pack": 353,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json",
+              "geojson"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://api.gbfs.v3.0.ecovelo.mobi/7vallees/station_information.json",
+            "sample_title": "GBFS station_information: 7 Vallées Vélo (Marconne)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Fifteen",
+            "display": "Fifteen",
+            "host": "gbfs.partners.fifteen.eu",
+            "endpoints_in_bucket": 113,
+            "endpoints_in_pack": 503,
+            "country_codes": [
+              "DE",
+              "ES",
+              "FR"
+            ],
+            "formats": [
+              "json",
+              "geojson"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://gbfs.partners.fifteen.eu/gbfs/2.2/angouleme/en/station_information.json",
+            "sample_title": "GBFS station_information: Vélo Modalis Angoulême (Angoulême)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Ridedott",
+            "display": "Ridedott",
+            "host": "gbfs.api.ridedott.com",
+            "endpoints_in_bucket": 112,
+            "endpoints_in_pack": 393,
+            "country_codes": [
+              "AE",
+              "BE",
+              "CH",
+              "DE",
+              "DK",
+              "FR",
+              "GB",
+              "IL",
+              "NO",
+              "PL",
+              "SA"
+            ],
+            "formats": [
+              "json",
+              "geojson"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://gbfs.api.ridedott.com/public/v2/aachen/station_information.json",
+            "sample_title": "GBFS station_information: Dott Aachen (Aachen)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Ecovelo",
+            "display": "Ecovelo",
+            "host": "api.gbfs.v2.2.ecovelo.mobi",
+            "endpoints_in_bucket": 108,
+            "endpoints_in_pack": 431,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json",
+              "geojson"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://api.gbfs.v2.2.ecovelo.mobi/7vallees/fr/station_information.json",
+            "sample_title": "7 Vallées Vélo: GBFS station_information [fr]: 7 Vallées Vélo (Marconne) v2.2",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grounding",
+      "emoji": "🧠",
+      "name": "Grounding and data pipelines",
+      "title": "Operators, prices and vehicle types, plus ridership history",
+      "build": "Load system_information, pricing plans and vehicle types on a schedule into your own store, so an answer about what a ride costs or which e-bikes a city offers cites the operator file and its date.",
+      "filter": {
+        "or": [
+          {
+            "urlMatches": "system_information|system_pricing_plans|vehicle_types|system_hours|system_calendar|system_alerts|gbfs_versions|/gbfs(\\.json)?$"
+          },
+          {
+            "and": [
+              {
+                "titleMatches": "trip|ridership|patronage|readings 20|historical|inspection"
+              },
+              {
+                "not": {
+                  "titleMatches": "shared[ _]use|shared_path|share the road|docks piers|culvert"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "filter_text": "url matches /system_information|system_pricing_plans|vehicle_types|system_hours|system_calendar|system_alerts|gbfs_versions|/gbfs(\\.json)?$/i OR (title matches /trip|ridership|patronage|readings 20|historical|inspection/i AND NOT title matches /shared[ _]use|shared_path|share the road|docks piers|culvert/i)",
+      "fallback": false,
+      "notes": [
+        {
+          "count": 1960,
+          "text": "are `system_pricing_plans` files: unlock fees and per-minute or per-kilometre prices."
+        }
+      ],
+      "count": 8386,
+      "services_matching": 160,
+      "country_codes_matching": 48,
+      "formats_matching": 3,
+      "example": {
+        "url": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_aa/en/system_pricing_plans.json",
+        "title": "GBFS system_pricing_plans: biciArteixo (Artexio, ES)",
+        "service": "Nextbike",
+        "last_tested": "2026-11-14"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and passed a data call. Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Sample preference in this bucket: `url matches /system_pricing_plans/i`. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 146,
+        "services": [
+          {
+            "service": "Nextbike",
+            "display": "Nextbike",
+            "host": "gbfs.nextbike.net",
+            "endpoints_in_bucket": 1183,
+            "endpoints_in_pack": 2662,
+            "country_codes": [
+              "AT",
+              "BA",
+              "BE",
+              "CH",
+              "CY",
+              "CZ",
+              "DE",
+              "ES",
+              "FR",
+              "GB",
+              "GR",
+              "HR",
+              "IT",
+              "LV",
+              "PL",
+              "PT",
+              "RO",
+              "SE",
+              "SI",
+              "SK",
+              "XK"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_aa/en/system_pricing_plans.json",
+            "sample_title": "GBFS system_pricing_plans: biciArteixo (Artexio, ES)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Donkey",
+            "display": "Donkey",
+            "host": "stables.donkey.bike",
+            "endpoints_in_bucket": 952,
+            "endpoints_in_pack": 1736,
+            "country_codes": [
+              "BE",
+              "CH",
+              "DE",
+              "DK",
+              "ES",
+              "FI",
+              "FR",
+              "GB",
+              "HU",
+              "IS",
+              "LI",
+              "NL",
+              "SE"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://stables.donkey.bike/api/public/gbfs/2/Augsburg/de/system_pricing_plans.json",
+            "sample_title": "Donkey Republic Augsburg: GBFS system_pricing_plans [de]: Donkey Republic Augsburg (Augsburg) v2.3",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Bird",
+            "display": "Bird",
+            "host": "mds.bird.co",
+            "endpoints_in_bucket": 612,
+            "endpoints_in_pack": 1237,
+            "country_codes": [
+              "AT",
+              "BE",
+              "CA",
+              "CH",
+              "DE",
+              "ES",
+              "FI",
+              "FR",
+              "IL",
+              "IT",
+              "PT",
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://mds.bird.co/gbfs/v2/public/adeje/system_pricing_plans.json",
+            "sample_title": "GBFS system_pricing_plans: Bird Adeje (Adeje)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "api.mobidata-bw.de",
+            "display": "api.mobidata-bw.de",
+            "host": "api.mobidata-bw.de",
+            "endpoints_in_bucket": 598,
+            "endpoints_in_pack": 1107,
+            "country_codes": [
+              "CH",
+              "DE",
+              "LI"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://api.mobidata-bw.de/sharing/gbfs/v2/bird-basel/system_pricing_plans",
+            "sample_title": "MobiData BW sharing: GBFS system_pricing_plans: bird-basel",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Fifteen",
+            "display": "Fifteen",
+            "host": "gbfs.partners.fifteen.eu",
+            "endpoints_in_bucket": 277,
+            "endpoints_in_pack": 503,
+            "country_codes": [
+              "DE",
+              "ES",
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://gbfs.partners.fifteen.eu/gbfs/2.2/angouleme/en/system_pricing_plans.json",
+            "sample_title": "GBFS system_pricing_plans: Vélo Modalis Angoulême (Angoulême)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Rideyego",
+            "display": "Rideyego",
+            "host": "services.rideyego.com",
+            "endpoints_in_bucket": 276,
+            "endpoints_in_pack": 372,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://services.rideyego.com/gbfs/1-1/bordeaux/en/system_pricing_plans",
+            "sample_title": "YEGO Bordeaux: GBFS system_pricing_plans [en]: YEGO Bordeaux (Bordeaux) v1.1",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Lyft",
+            "display": "Lyft",
+            "host": "gbfs.lyft.com",
+            "endpoints_in_bucket": 273,
+            "endpoints_in_pack": 447,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://gbfs.lyft.com/gbfs/1.1/bay/en/system_pricing_plans.json",
+            "sample_title": "Motivate LLC: GBFS system_pricing_plans [en]: Bay Wheels (San Francisco Bay Area, CA)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Ecovelo",
+            "display": "Ecovelo",
+            "host": "api.gbfs.v2.2.ecovelo.mobi",
+            "endpoints_in_bucket": 251,
+            "endpoints_in_pack": 431,
+            "country_codes": [
+              "FR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://api.gbfs.v2.2.ecovelo.mobi/7vallees/fr/system_pricing_plans.json",
+            "sample_title": "7 Vallées Vélo: GBFS system_pricing_plans [fr]: 7 Vallées Vélo (Marconne) v2.2",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evals",
+      "emoji": "🧪",
+      "name": "Evals and testing",
+      "title": "GBFS files across versions and operators to test a feed parser",
+      "build": "Run your GBFS parser against a fixed set of feeds from many operators and versions; check that station ids, coordinates, counts and prices parse, and keep last_tested as the baseline for your own re-tests.",
+      "filter": {
+        "whole": true
+      },
+      "filter_text": "the whole pack",
+      "fallback": false,
+      "notes": [],
+      "count": 17059,
+      "services_matching": 267,
+      "country_codes_matching": 60,
+      "formats_matching": 5,
+      "example": {
+        "url": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_aa/en/free_bike_status.json",
+        "title": "GBFS free_bike_status: biciArteixo (Artexio, ES)",
+        "service": "Nextbike",
+        "last_tested": "2026-11-14"
+      },
+      "recommended": {
+        "criteria": "Services in this pack that returned the most different formats, then the most endpoints that passed a data call, then by name: a mix of response shapes to test parsers and tool calls. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 229,
+        "services": [
+          {
+            "service": "api.mobidata-bw.de",
+            "display": "api.mobidata-bw.de",
+            "host": "api.mobidata-bw.de",
+            "endpoints_in_bucket": 1107,
+            "endpoints_in_pack": 1107,
+            "country_codes": [
+              "CH",
+              "DE",
+              "LI"
+            ],
+            "formats": [
+              "json",
+              "geojson",
+              "csv"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://api.mobidata-bw.de/sharing/gbfs/v2/bird-basel/free_bike_status",
+            "sample_title": "MobiData BW sharing: GBFS free_bike_status: bird-basel",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Voiapp",
+            "display": "Voiapp",
+            "host": "api.voiapp.io",
+            "endpoints_in_bucket": 128,
+            "endpoints_in_pack": 128,
+            "country_codes": [
+              "BE",
+              "DE",
+              "FR"
+            ],
+            "formats": [
+              "json",
+              "zip",
+              "geojson"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://api.voiapp.io/gbfs/be/7a4cb689-a2ee-409d-a5fe-49d2e8d50717/v2/free_bike_status.json",
+            "sample_title": "GBFS free_bike_status: VOI Antwerp (Antwerp)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Transportation",
+            "display": "Transportation",
+            "host": "data.transportation.gov",
+            "endpoints_in_bucket": 32,
+            "endpoints_in_pack": 32,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json",
+              "csv",
+              "xml"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://data.transportation.gov/api/v3/views/6cfa-ipzd/query.json?accessType=DOWNLOAD",
+            "sample_title": "U.S Department of Transportation: ckan_resource_json",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "data.gov.au",
+            "display": "data.gov.au",
+            "host": "data.melbourne.vic.gov.au",
+            "endpoints_in_bucket": 7,
+            "endpoints_in_pack": 7,
+            "country_codes": [
+              "AU"
+            ],
+            "formats": [
+              "json",
+              "csv",
+              "geojson"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://data.melbourne.vic.gov.au/api/explore/v2.1/catalog/datasets/bike-share-dock-locations/records?limit=1",
+            "sample_title": "Bike Share Dock Locations",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-12"
+          },
+          {
+            "service": "ArcGIS Online: Arlington County",
+            "display": "ArcGIS Online: Arlington County",
+            "host": "gisdata-arlgis.opendata.arcgis.com",
+            "endpoints_in_bucket": 3,
+            "endpoints_in_pack": 3,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "csv",
+              "geojson",
+              "xml"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://gisdata-arlgis.opendata.arcgis.com/api/download/v1/items/7da2d4682a304e0dad4c5196c277abea/csv?layers=0",
+            "sample_title": "Arlington County - GIS Portal: ckan_resource_csv",
+            "sample_format": "csv",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Nextbike",
+            "display": "Nextbike",
+            "host": "gbfs.nextbike.net",
+            "endpoints_in_bucket": 2662,
+            "endpoints_in_pack": 2662,
+            "country_codes": [
+              "AT",
+              "BA",
+              "BE",
+              "CH",
+              "CY",
+              "CZ",
+              "DE",
+              "ES",
+              "FR",
+              "GB",
+              "GR",
+              "HR",
+              "IT",
+              "LV",
+              "PL",
+              "PT",
+              "RO",
+              "SE",
+              "SI",
+              "SK",
+              "XK"
+            ],
+            "formats": [
+              "json",
+              "geojson"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_aa/en/free_bike_status.json",
+            "sample_title": "GBFS free_bike_status: biciArteixo (Artexio, ES)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Bird",
+            "display": "Bird",
+            "host": "mds.bird.co",
+            "endpoints_in_bucket": 1237,
+            "endpoints_in_pack": 1237,
+            "country_codes": [
+              "AT",
+              "BE",
+              "CA",
+              "CH",
+              "DE",
+              "ES",
+              "FI",
+              "FR",
+              "IL",
+              "IT",
+              "PT",
+              "US"
+            ],
+            "formats": [
+              "json",
+              "geojson"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://mds.bird.co/gbfs/ajaccio/free_bike_status.json",
+            "sample_title": "Bird Ajaccio: GBFS free_bike_status [en]: Bird Ajaccio (Ajaccio) v1.1",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Fifteen",
+            "display": "Fifteen",
+            "host": "gbfs.partners.fifteen.eu",
+            "endpoints_in_bucket": 503,
+            "endpoints_in_pack": 503,
+            "country_codes": [
+              "DE",
+              "ES",
+              "FR"
+            ],
+            "formats": [
+              "json",
+              "geojson"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://gbfs.partners.fifteen.eu/gbfs/2.2/angouleme/en/free_bike_status.json",
+            "sample_title": "GBFS free_bike_status: Vélo Modalis Angoulême (Angoulême)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          }
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "q": "How many bikes and open docks does a BIKETOWN station in Portland report?",
+      "filter": "url contains \"gbfs.lyft.com/gbfs/2.3/pdx/en/station_status.json\"",
+      "url": "https://gbfs.lyft.com/gbfs/2.3/pdx/en/station_status.json",
+      "title": "GBFS station_status: BIKETOWN (Portland, OR)",
+      "service": "Lyft",
+      "last_tested": "2026-11-14",
+      "matching": 1
+    },
+    {
+      "q": "Which Bird e-scooters are available to ride in a given city, and where are they?",
+      "filter": "url matches /mds\\.bird\\.co/gbfs/v2/public/[^/]+/free_bike_status/i",
+      "url": "https://mds.bird.co/gbfs/v2/public/adeje/free_bike_status.json",
+      "title": "GBFS free_bike_status: Bird Adeje (Adeje)",
+      "service": "Bird",
+      "last_tested": "2026-11-14",
+      "matching": 85
+    },
+    {
+      "q": "What does a Donkey Republic bike cost to unlock and ride in a given city?",
+      "filter": "url matches /stables\\.donkey\\.bike/api/public/gbfs/3\\.0/[^/]+/system_pricing_plans/i",
+      "url": "https://stables.donkey.bike/api/public/gbfs/3.0/Augsburg/system_pricing_plans.json",
+      "title": "GBFS system_pricing_plans: Donkey Republic Augsburg (Augsburg)",
+      "service": "Donkey",
+      "last_tested": "2026-11-14",
+      "matching": 92
+    },
+    {
+      "q": "Where may Dott scooters not be ridden or parked in a given city?",
+      "filter": "url matches /gbfs\\.api\\.ridedott\\.com/public/v2/[^/]+/geofencing_zones/i",
+      "url": "https://gbfs.api.ridedott.com/public/v2/berlin/geofencing_zones.json",
+      "title": "GBFS geofencing_zones: Dott Berlin (Berlin)",
+      "service": "Ridedott",
+      "last_tested": "2026-11-14",
+      "matching": 56
+    }
+  ],
+  "preview_focused": true,
+  "preview": [
+    {
+      "title": "GBFS free_bike_status: biciArteixo (Artexio, ES)",
+      "service": "Nextbike",
+      "country": "ES",
+      "category": "Transport & Mobility",
+      "subcategory": "",
+      "format": "json",
+      "tags": "transit|bike-share|gbfs|maps|no-key|json|agent-ready",
+      "last_tested": "2026-11-14",
+      "host": "gbfs.nextbike.net",
+      "url": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_aa/en/free_bike_status.json"
+    },
+    {
+      "title": "Donkey Republic Augsburg: GBFS free_bike_status [de]: Donkey Republic Augsburg (Augsburg) v2.3",
+      "service": "Donkey",
+      "country": "DE",
+      "category": "Transport & Mobility",
+      "subcategory": "",
+      "format": "json",
+      "tags": "transit|bike-share|gbfs|no-key|json|agent-ready",
+      "last_tested": "2026-11-15",
+      "host": "stables.donkey.bike",
+      "url": "https://stables.donkey.bike/api/public/gbfs/2/Augsburg/de/free_bike_status.json"
+    },
+    {
+      "title": "Bird Ajaccio: GBFS free_bike_status [en]: Bird Ajaccio (Ajaccio) v1.1",
+      "service": "Bird",
+      "country": "FR",
+      "category": "Transport & Mobility",
+      "subcategory": "",
+      "format": "json",
+      "tags": "transit|bike-share|gbfs|no-key|json|agent-ready",
+      "last_tested": "2026-11-15",
+      "host": "mds.bird.co",
+      "url": "https://mds.bird.co/gbfs/ajaccio/free_bike_status.json"
+    },
+    {
+      "title": "MobiData BW sharing: GBFS free_bike_status: bird-basel",
+      "service": "api.mobidata-bw.de",
+      "country": "DE",
+      "category": "Transport & Mobility",
+      "subcategory": "",
+      "format": "json",
+      "tags": "transit|bike-share|gbfs|no-key|json|agent-ready",
+      "last_tested": "2026-11-15",
+      "host": "api.mobidata-bw.de",
+      "url": "https://api.mobidata-bw.de/sharing/gbfs/v2/bird-basel/free_bike_status"
+    },
+    {
+      "title": "CityBikes: All bike-share networks",
+      "service": "Citybik",
+      "country": "ES",
+      "category": "Transport & Mobility",
+      "subcategory": "",
+      "format": "json",
+      "tags": "transit|bike-share|no-key|json|agent-ready",
+      "last_tested": "2026-11-15",
+      "host": "api.citybik.es",
+      "url": "https://api.citybik.es/v2/networks"
+    }
+  ],
+  "limits": [
+    {
+      "id": "skew",
+      "text": "20.2% of rows carry country code FR; 4 rows have no code (global or unknown)."
+    },
+    {
+      "id": "record-count",
+      "text": "123 rows are map-layer queries with resultRecordCount set: the tested call asked for a few records; change the query to get the full layer."
+    },
+    {
+      "id": "limit-1",
+      "text": "15 rows carry limit=1: the tested call asked for one record; raise the limit or page through."
+    },
+    {
+      "id": "portal",
+      "text": "161 rows are open-data portal dataset records, which may return a dataset record with links rather than the table itself."
+    },
+    {
+      "id": "files",
+      "text": "27 rows are files (zip 27) rather than bodies an agent reads directly."
+    },
+    {
+      "id": "arcgis-online",
+      "text": "78 rows are layers on ArcGIS Online, where anyone can publish: some are class projects, tests or copies. Check the owner and the fields before you rely on one."
+    },
+    {
+      "id": "pack",
+      "text": "1,201 rows are car-sharing feeds published in GBFS (Getaround, Citiz, autopartage and carsharing services), not bikes or scooters; they are not used as starting points."
+    },
+    {
+      "id": "pack",
+      "text": "13 rows are map layers of shared-use paths, shared roads or piers that hold no bike-share data."
+    },
+    {
+      "id": "pack",
+      "text": "10 rows are planning or status layers (proposed, preliminary, closed, temporary, internal, survey or demand-study stations) that may not show stations in service; they are not used as starting points."
+    },
+    {
+      "id": "pack",
+      "text": "30 rows are past trips, ridership counts, inspections or station readings: history, not current availability."
+    },
+    {
+      "id": "pack",
+      "text": "3,257 rows are availability files whose values can change from minute to minute; the body on the test date is a past state, so fetch the URL again for current counts."
+    },
+    {
+      "id": "pack",
+      "text": "GBFS feeds in this pack use more than one version of the specification (2.x and 3.0 paths both appear); version 3.0 renames free_bike_status to vehicle_status and changes some fields, so read the version from gbfs.json or gbfs_versions before you parse."
+    },
+    {
+      "id": "quiet",
+      "text": "Stations and feeds can go quiet after their test date; re-test a URL before you rely on it."
+    },
+    {
+      "id": "not-in",
+      "text": "Not in this pack: endpoints that need a key or a POST, and URLs that did not pass."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 2 ArcGIS Survey123 layers (they can hold people's form answers)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 1 ArcGIS layer that keeps a form's default service name (it can hold people's form answers)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 2 ArcGIS class or coursework layers (lab, assignment, exam, quiz, lesson, exercise, tutorial and final-project layers, copies of class layers, layers named for a person or a person's home, and layers whose name ends in a person's name or holds a student number)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 12 rows of ArcGIS Online organisations that are class accounts (3 class sets or more in at least 20% of their rows, 10 class sets or more with no organisation name, or layers signed by students read by hand): their other layers are students' work too."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 49 rows of the ArcGIS Online organisations of universities, colleges and schools (many of their layers are students' work)."
+    }
+  ],
+  "name": "17k-bike-share-apis-for-agents",
+  "old_name": "bike-share-api-endpoints",
+  "services_tested": {
+    "services": 244,
+    "tested": 92292,
+    "passed": 75619,
+    "passed_pct": 81,
+    "line": "Across these services: 92k tested · 81% passed a keyless call",
+    "note": "Counted over the 244 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+  },
+  "services_file_rows": 267,
+  "sample_mix": [
+    {
+      "source": "Nextbike (gbfs.nextbike.net)",
+      "focus_rows": 2662,
+      "sample_rows": 137
+    },
+    {
+      "source": "Donkey (stables.donkey.bike)",
+      "focus_rows": 1736,
+      "sample_rows": 90
+    },
+    {
+      "source": "Bird (mds.bird.co)",
+      "focus_rows": 1237,
+      "sample_rows": 64
+    },
+    {
+      "source": "api.mobidata-bw.de",
+      "focus_rows": 886,
+      "sample_rows": 46
+    },
+    {
+      "source": "Citybik (api.citybik.es)",
+      "focus_rows": 813,
+      "sample_rows": 43
+    },
+    {
+      "source": "Fifteen (gbfs.partners.fifteen.eu)",
+      "focus_rows": 503,
+      "sample_rows": 27
+    },
+    {
+      "source": "Lyft (gbfs.lyft.com)",
+      "focus_rows": 447,
+      "sample_rows": 24
+    },
+    {
+      "source": "Ecovelo (api.gbfs.v2.2.ecovelo.mobi)",
+      "focus_rows": 431,
+      "sample_rows": 23
+    },
+    {
+      "source": "Ridedott (gbfs.api.ridedott.com)",
+      "focus_rows": 393,
+      "sample_rows": 21
+    },
+    {
+      "source": "Bcycle (gbfs.bcycle.com)",
+      "focus_rows": 374,
+      "sample_rows": 20
+    }
+  ],
+  "sample_focus_rows": 15832,
+  "sample_rule": "1,000 rows, or one third of the pack rounded down, whichever is smaller",
+  "files": [
+    {
+      "name": "data/Bike_Share_API_Services_AgentPopulation.csv",
+      "rows": 267,
+      "bytes": 13564,
+      "sha256": "ee615035586f8817b8573e125650b64f5e5697a4d7b9118a7b6554d77114bab8"
+    },
+    {
+      "name": "data/Bike_Share_API_Endpoints_AgentPopulation_Sample.csv",
+      "rows": 1000,
+      "bytes": 266500,
+      "sha256": "3dd0ef5ad4f67e1152fe8fb596a4461fcf76b0ab010d6e8f50915c818529ad10"
+    },
+    {
+      "name": "data/Bike_Share_API_Endpoints_AgentPopulation_Sample.json",
+      "rows": 1000,
+      "bytes": 467829,
+      "sha256": "d91117b16e36a4f7facbbf3bcd01759e39c48c1eff84ddab798f9442a4e4cc0c"
+    }
+  ],
+  "release_asset": {
+    "name": "Bike_Share_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+    "rows": 17059,
+    "bytes": 444050,
+    "raw_bytes": 4380064,
+    "sha256": "902fd20c253a85b524aef420b82459accdd6a3b177bbffd3ebe889c6ff023daa",
+    "url": "https://github.com/agentpopulation/17k-bike-share-apis-for-agents/releases/latest/download/Bike_Share_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz"
+  },
+  "release_tag": "snapshot-2026-11-15",
+  "overlaps": [
+    {
+      "repo": "weather-api-endpoints",
+      "name": "170k-weather-apis-for-agents",
+      "title": "Weather API endpoints",
+      "shared": 2
+    },
+    {
+      "repo": "transit-api-endpoints",
+      "name": "240k-transit-apis-for-agents",
+      "title": "Transit API endpoints",
+      "shared": 17059
+    },
+    {
+      "repo": "water-api-endpoints",
+      "name": "260k-water-apis-for-agents",
+      "title": "Rivers and water API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "finance-economy-api-endpoints",
+      "name": "120k-finance-economy-apis-for-agents",
+      "title": "Finance and economy API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "india-api-endpoints",
+      "name": "130k-india-apis-for-agents",
+      "title": "India API endpoints",
+      "shared": 8
+    },
+    {
+      "repo": "government-open-data-api-endpoints",
+      "name": "1.2m-government-open-data-apis",
+      "title": "Government open data API endpoints",
+      "shared": 26
+    },
+    {
+      "repo": "statistics-api-endpoints",
+      "name": "270k-statistics-apis-for-agents",
+      "title": "Statistics and census API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "oceans-api-endpoints",
+      "name": "84k-oceans-apis-for-agents",
+      "title": "Ocean and marine API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "maritime-api-endpoints",
+      "name": "22k-maritime-apis-for-agents",
+      "title": "Maritime API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "environment-api-endpoints",
+      "name": "160k-environment-apis-for-agents",
+      "title": "Environment API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "air-quality-api-endpoints",
+      "name": "19k-air-quality-apis-for-agents",
+      "title": "Air quality API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "maps-gis-api-endpoints",
+      "name": "350k-maps-gis-apis-for-agents",
+      "title": "Maps and GIS API endpoints",
+      "shared": 1
+    },
+    {
+      "repo": "agent-ready-api-endpoints",
+      "name": "2.2m-agent-ready-apis",
+      "title": "Agent-ready API endpoints",
+      "shared": 16074
+    },
+    {
+      "repo": "health-api-endpoints",
+      "name": "84k-health-apis-for-agents",
+      "title": "Health API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "science-api-endpoints",
+      "name": "380k-science-apis-for-agents",
+      "title": "Science API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "hazards-api-endpoints",
+      "name": "40k-hazards-apis-for-agents",
+      "title": "Hazards and alerts API endpoints",
+      "shared": 1
+    },
+    {
+      "repo": "wildfire-api-endpoints",
+      "name": "4.9k-wildfire-apis-for-agents",
+      "title": "Wildfire API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "energy-api-endpoints",
+      "name": "67k-energy-apis-for-agents",
+      "title": "Energy API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "aviation-api-endpoints",
+      "name": "23k-aviation-apis-for-agents",
+      "title": "Aviation API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "traffic-api-endpoints",
+      "name": "22k-traffic-apis-for-agents",
+      "title": "Traffic and roadworks API endpoints",
+      "shared": 13
+    },
+    {
+      "repo": "parking-api-endpoints",
+      "name": "10k-parking-apis-for-agents",
+      "title": "Parking API endpoints",
+      "shared": 2
+    },
+    {
+      "repo": "earthquake-api-endpoints",
+      "name": "7.8k-earthquake-apis-for-agents",
+      "title": "Earthquake API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "volcano-tsunami-api-endpoints",
+      "name": "4.2k-volcano-tsunami-apis-for-agents",
+      "title": "Volcano and tsunami API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "united-states-api-endpoints",
+      "name": "750k-united-states-apis-for-agents",
+      "title": "United States API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "united-kingdom-api-endpoints",
+      "name": "52k-united-kingdom-apis-for-agents",
+      "title": "United Kingdom API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "france-api-endpoints",
+      "name": "47k-france-apis-for-agents",
+      "title": "France API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "spain-api-endpoints",
+      "name": "8.1k-spain-apis-for-agents",
+      "title": "Spain API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "indonesia-api-endpoints",
+      "name": "22k-indonesia-apis-for-agents",
+      "title": "Indonesia API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "canada-api-endpoints",
+      "name": "19k-canada-apis-for-agents",
+      "title": "Canada API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "netherlands-api-endpoints",
+      "name": "17k-netherlands-apis-for-agents",
+      "title": "Netherlands API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "germany-api-endpoints",
+      "name": "14k-germany-apis-for-agents",
+      "title": "Germany API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "norway-api-endpoints",
+      "name": "12k-norway-apis-for-agents",
+      "title": "Norway API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "brazil-api-endpoints",
+      "name": "14k-brazil-apis-for-agents",
+      "title": "Brazil API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "japan-api-endpoints",
+      "name": "9.8k-japan-apis-for-agents",
+      "title": "Japan API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "australia-api-endpoints",
+      "name": "12k-australia-apis-for-agents",
+      "title": "Australia API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "colombia-api-endpoints",
+      "name": "10k-colombia-apis-for-agents",
+      "title": "Colombia API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "czechia-api-endpoints",
+      "name": "6.3k-czechia-apis-for-agents",
+      "title": "Czechia API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "poland-api-endpoints",
+      "name": "6.3k-poland-apis-for-agents",
+      "title": "Poland API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "taiwan-api-endpoints",
+      "name": "4.2k-taiwan-apis-for-agents",
+      "title": "Taiwan API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "italy-api-endpoints",
+      "name": "7.3k-italy-apis-for-agents",
+      "title": "Italy API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "new-zealand-api-endpoints",
+      "name": "6.1k-new-zealand-apis-for-agents",
+      "title": "New Zealand API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "nordic-api-endpoints",
+      "name": "13k-nordic-apis-for-agents",
+      "title": "Nordic API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "more-europe-api-endpoints",
+      "name": "24k-more-europe-apis-for-agents",
+      "title": "More Europe API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "latin-america-caribbean-api-endpoints",
+      "name": "20k-latin-america-caribbean-apis-for-agents",
+      "title": "Latin America and Caribbean API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "europe-region-arcgis-api-endpoints",
+      "name": "59k-europe-region-arcgis-apis-for-agents",
+      "title": "Europe-region ArcGIS API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "middle-east-africa-api-endpoints",
+      "name": "6.7k-middle-east-africa-apis-for-agents",
+      "title": "Middle East and Africa API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "county-and-city-gis-api-endpoints",
+      "name": "160k-county-and-city-gis-apis-for-agents",
+      "title": "County and city GIS API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "public-agency-gis-api-endpoints",
+      "name": "47k-public-agency-gis-apis-for-agents",
+      "title": "Public agency GIS API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "arcgis-server-api-endpoints",
+      "name": "25k-arcgis-server-apis-for-agents",
+      "title": "ArcGIS Server API endpoints",
+      "shared": 0
+    }
+  ],
+  "pack_count": 50,
+  "description": "17,059 bike-share API endpoints that passed a keyless data call. For agent tools, apps, pipelines and evals. CSV, CC BY 4.0.",
+  "live_name": "17k-bike-share-apis-for-agents",
+  "readme_ap_share": 0.094,
+  "country_counts": {
+    "FR": 3450,
+    "DE": 2856,
+    "US": 2631,
+    "ES": 1009,
+    "CZ": 783,
+    "CH": 579,
+    "NO": 554,
+    "GB": 491,
+    "RO": 419,
+    "CA": 403,
+    "DK": 379,
+    "FI": 360,
+    "BR": 322,
+    "BE": 297,
+    "IT": 230,
+    "HR": 210,
+    "NL": 203,
+    "AT": 192,
+    "NZ": 171,
+    "PL": 157,
+    "SI": 142,
+    "AR": 103,
+    "SE": 90,
+    "PT": 88,
+    "AE": 85,
+    "BA": 84,
+    "JP": 74,
+    "MC": 74,
+    "CL": 73,
+    "SK": 71,
+    "CO": 61,
+    "GR": 59,
+    "MX": 42,
+    "SA": 36,
+    "IL": 35,
+    "IE": 33,
+    "CY": 29,
+    "LV": 18,
+    "UA": 17,
+    "HU": 16,
+    "TR": 15,
+    "TW": 15,
+    "LI": 14,
+    "LU": 14,
+    "LT": 12,
+    "XK": 10,
+    "AU": 9,
+    "IN": 8,
+    "IS": 8,
+    "MY": 7,
+    "CN": 5,
+    "": 4,
+    "KR": 4,
+    "CR": 1,
+    "EC": 1,
+    "EU": 1,
+    "GE": 1,
+    "KZ": 1,
+    "ME": 1,
+    "MT": 1,
+    "PE": 1
+  }
+}
